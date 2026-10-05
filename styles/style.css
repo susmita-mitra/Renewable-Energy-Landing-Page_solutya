@@ -163,9 +163,7 @@ body {
 
 
 
-/* =====================================
-   LOGO - DARK LEAF
-===================================== */
+/*LOGO - DARK LEAF*/
 
 .leaf1 {
     position: absolute;
@@ -181,9 +179,7 @@ body {
 
 
 
-/* =====================================
-   LOGO - GREEN OUTLINE LEAF
-===================================== */
+/*LOGO - GREEN OUTLINE LEAF */
 
 .leaf2 {
     position: absolute;
@@ -198,9 +194,7 @@ body {
 
 
 
-/* =====================================
-   NAVBAR - LOGO TEXT
-===================================== */
+/*NAVBAR - LOGO TEXT*/
 
 .logo-text {
     font-family: "Archivo", sans-serif;
@@ -719,9 +713,7 @@ body {
 
 
 
-/* =====================================================
-   EFFICIENCY GRAPH AREA
-===================================================== */
+/*EFFICIENCY GRAPH AREA */
 
 .efficiency-graph {
     margin-top: 60px;
@@ -1895,9 +1887,7 @@ body {
 
 
 
-/* =====================================================
-   RENEWABLE ENERGY JOURNEY SECTION
-===================================================== */
+/*RENEWABLE ENERGY JOURNEY SECTION*/
 
 .journey-section{
     position:relative;
@@ -1921,9 +1911,7 @@ body {
 
 
 
-/* =====================================================
-   LEFT CONTENT
-===================================================== */
+/*LEFT CONTENT*/
 
 .journey-content{
     position:absolute;
@@ -1936,9 +1924,7 @@ body {
 
 
 
-/* =====================================================
-   MAIN HEADING
-===================================================== */
+/*MAIN HEADING*/
 
 .journey-heading{
     margin:0;
@@ -1974,9 +1960,7 @@ body {
 
 
 
-/* =====================================================
-   START NOW BUTTON
-===================================================== */
+/*START NOW BUTTON*/
 
 .journey-btn{
 
@@ -2010,9 +1994,7 @@ body {
 
 
 
-/* =====================================================
-   BUTTON WHITE CIRCLE
-===================================================== */
+/*BUTTON WHITE CIRCLE*/
 
 .journey-btn-circle{
     width:50px;
@@ -2041,7 +2023,7 @@ body {
     width:549px;
     height:382px;
 
-    padding:42px 45px 60px 45px;
+    padding:42px 45px 48px 45px;
 
     background:#ffffff;
 
@@ -2104,7 +2086,8 @@ body {
 .chart-area{
     display:flex;
 
-    margin-top:20px;
+    margin-top:50px;
+    gap:50px
 }
 
 
@@ -2118,33 +2101,41 @@ body {
     flex-direction:column;
 
     justify-content:space-between;
-    padding-top:2px;
-    padding-bottom:2px;
-    height: 220px;
+
+  
+    height:170px;
 
     font-size:20px;
+    gap:15px ;
+}
+
+
+
+.chart-labels span:first-child{
+    position:relative;
+    top:-8px;
+}
+
+.chart-labels span:last-child{
+    position:relative;
+    top:8px;
 }
 
 
 
 
-
-
-
-/* =====================================================
-   CHART BARS AREA
-===================================================== */
+/*CHART BARS AREA*/
 
 .chart-bars{
     position:relative;
 
     width:363px;
-    height:220px;
+    height:170px;
 
     display:flex;
     align-items:flex-end;
 
-    gap:6px;
+    gap:5px;
 
     padding-left:15px;
 
@@ -2172,9 +2163,7 @@ body {
 }
 
 
-/* =====================================================
-   COMMON BAR
-===================================================== */
+/*COMMON BAR*/
 
 .bar{
     width:31px;
@@ -2223,9 +2212,7 @@ body {
 
 
 
-/* =====================================================
-   LARGE RETHVELLE BACKGROUND TEXT
-===================================================== */
+/*LARGE RETHVELLE BACKGROUND TEXT*/
 
 .journey-watermark{
     position:absolute;
@@ -2257,9 +2244,7 @@ body {
 
 
 
-/* =========================================================
-   RESPONSIVE DESIGN
-========================================================= */
+/*RESPONSIVE DESIGN*/
 
 
 /* =========================================================
@@ -2269,9 +2254,7 @@ body {
 
 @media (max-width:1200px) {
 
-    /* =========================
-       HERO
-    ========================= */
+    /*HERO*/
 
     .hero {
         width: calc(100% - 32px);
@@ -2290,9 +2273,7 @@ body {
     }
 
 
-    /* =========================
-       NAVBAR
-    ========================= */
+    /*NAVBAR*/
 
     .navbar {
         height: 90px;
@@ -6142,6 +6123,811 @@ body {
         margin-top:45px;
 
         font-size:15px;
+    }
+
+}
+
+
+
+/*RENEWABLE ENERGY JOURNEY SECTION - RESPONSIVE*/
+
+
+/*SMALL LAPTOP 1200px AND BELOW */
+
+@media (max-width:1200px){
+
+    /*MAIN SECTION*/
+
+    .journey-section{
+        width:100%;
+        height:620px;
+    }
+
+
+    /*LEFT CONTENT*/
+
+    .journey-content{
+        left:55px;
+        top:70px;
+    }
+
+
+    /*MAIN HEADING*/
+
+    .journey-heading{
+        font-size:52px;
+        line-height:62px;
+        letter-spacing:-2px;
+    }
+
+
+    /*START BUTTON*/
+
+    .journey-btn{
+        margin-top:145px;
+
+        width:220px;
+        height:58px;
+
+        padding-left:45px;
+
+        font-size:20px;
+    }
+
+
+    .journey-btn-circle{
+        width:46px;
+        height:46px;
+
+        font-size:24px;
+    }
+
+
+    /*CHART CARD*/
+
+    .journey-chart-card{
+        right:55px;
+        top:120px;
+
+        width:500px;
+        height:360px;
+
+        padding:36px 38px 42px;
+    }
+
+
+    /*CARD TOP*/
+
+    .chart-logo{
+        width:48px;
+        height:53px;
+    }
+
+
+    .chart-circles span{
+        width:58px;
+        height:58px;
+
+        margin-left:-17px;
+    }
+
+
+    /*CHART AREA*/
+
+    .chart-area{
+        margin-top:45px;
+
+        gap:35px;
+    }
+
+
+    .chart-labels{
+        width:45px;
+        height:160px;
+
+        font-size:18px;
+    }
+
+
+    .chart-bars{
+        width:330px;
+        height:160px;
+
+        gap:4px;
+    }
+
+
+    /* =====================================
+       BARS
+    ===================================== */
+
+    .bar{
+        width:28px;
+    }
+
+
+    .bar-1{ height:53px; }
+    .bar-2{ height:99px; }
+    .bar-3{ height:129px; }
+    .bar-4{ height:158px; }
+    .bar-5{ height:89px; }
+
+    .bar-6{ height:138px; }
+    .bar-7{ height:53px; }
+    .bar-8{ height:119px; }
+    .bar-9{ height:158px; }
+    .bar-10{ height:119px; }
+
+
+    /* =====================================
+       WATERMARK
+    ===================================== */
+
+    .journey-watermark{
+        font-size:250px;
+
+        letter-spacing:-20px;
+
+        bottom:-60px;
+    }
+
+}
+
+
+
+/* =========================================================
+   TABLET
+   992px AND BELOW
+========================================================= */
+
+@media (max-width:992px){
+
+    /* =====================================
+       MAIN SECTION
+       Content stack হবে
+    ===================================== */
+
+    .journey-section{
+        height:auto;
+
+        min-height:1050px;
+
+        padding:70px 40px 90px;
+    }
+
+
+    /* =====================================
+       LEFT CONTENT
+    ===================================== */
+
+    .journey-content{
+        position:relative;
+
+        left:auto;
+        top:auto;
+
+        width:100%;
+    }
+
+
+    /* =====================================
+       HEADING
+    ===================================== */
+
+    .journey-heading{
+        font-size:50px;
+        line-height:60px;
+    }
+
+
+    /* =====================================
+       BUTTON
+    ===================================== */
+
+    .journey-btn{
+        margin-top:70px;
+    }
+
+
+    /* =====================================
+       CHART CARD
+    ===================================== */
+
+    .journey-chart-card{
+        position:relative;
+
+        right:auto;
+        top:auto;
+
+        width:549px;
+        height:382px;
+
+        margin:90px auto 0;
+
+        padding:42px 45px 48px;
+    }
+
+
+    /* =====================================
+       ORIGINAL CHART SIZE RESTORE
+    ===================================== */
+
+    .chart-logo{
+        width:53.99px;
+        height:59.55px;
+    }
+
+
+    .chart-circles span{
+        width:68.79px;
+        height:68.79px;
+
+        margin-left:-20px;
+    }
+
+
+    .chart-area{
+        margin-top:50px;
+
+        gap:50px;
+    }
+
+
+    .chart-labels{
+        width:50px;
+        height:170px;
+
+        font-size:20px;
+    }
+
+
+    .chart-bars{
+        width:363px;
+        height:170px;
+
+        gap:5px;
+    }
+
+
+    .bar{
+        width:31px;
+    }
+
+
+    .bar-1{ height:56px; }
+    .bar-2{ height:105px; }
+    .bar-3{ height:137px; }
+    .bar-4{ height:168px; }
+    .bar-5{ height:95px; }
+
+    .bar-6{ height:147px; }
+    .bar-7{ height:56px; }
+    .bar-8{ height:126px; }
+    .bar-9{ height:168px; }
+    .bar-10{ height:126px; }
+
+
+    /* =====================================
+       WATERMARK
+    ===================================== */
+
+    .journey-watermark{
+        font-size:220px;
+
+        letter-spacing:-18px;
+
+        bottom:-40px;
+        right:-20px;
+    }
+
+}
+
+
+
+/* =========================================================
+   MOBILE
+   768px AND BELOW
+========================================================= */
+
+@media (max-width:768px){
+
+    /* =====================================
+       MAIN SECTION
+    ===================================== */
+
+    .journey-section{
+        min-height:940px;
+
+        padding:60px 28px 80px;
+    }
+
+
+    /* =====================================
+       HEADING
+    ===================================== */
+
+    .journey-heading{
+        font-size:40px;
+        line-height:49px;
+
+        letter-spacing:-1.5px;
+    }
+
+
+    /* =====================================
+       BUTTON
+    ===================================== */
+
+    .journey-btn{
+        margin-top:55px;
+
+        width:205px;
+        height:56px;
+
+        padding-left:38px;
+
+        font-size:18px;
+    }
+
+
+    .journey-btn-circle{
+        width:44px;
+        height:44px;
+
+        font-size:22px;
+    }
+
+
+    /* =====================================
+       CHART CARD
+    ===================================== */
+
+    .journey-chart-card{
+        width:100%;
+        max-width:540px;
+
+        height:360px;
+
+        margin-top:75px;
+
+        padding:35px 35px 40px;
+    }
+
+
+    /* =====================================
+       TOP ICONS
+    ===================================== */
+
+    .chart-logo{
+        width:48px;
+        height:53px;
+    }
+
+
+    .chart-circles span{
+        width:55px;
+        height:55px;
+
+        margin-left:-16px;
+    }
+
+
+    /* =====================================
+       CHART
+    ===================================== */
+
+    .chart-area{
+        margin-top:45px;
+
+        gap:25px;
+    }
+
+
+    .chart-labels{
+        width:45px;
+        height:155px;
+
+        font-size:16px;
+
+        gap:10px;
+    }
+
+
+    .chart-bars{
+        width:auto;
+        flex:1;
+
+        height:155px;
+
+        gap:4px;
+
+        padding-left:8px;
+    }
+
+
+    /* =====================================
+       BARS
+    ===================================== */
+
+    .bar{
+        width:26px;
+    }
+
+
+    .bar-1{ height:51px; }
+    .bar-2{ height:96px; }
+    .bar-3{ height:125px; }
+    .bar-4{ height:153px; }
+    .bar-5{ height:86px; }
+
+    .bar-6{ height:134px; }
+    .bar-7{ height:51px; }
+    .bar-8{ height:115px; }
+    .bar-9{ height:153px; }
+    .bar-10{ height:115px; }
+
+
+    /* =====================================
+       WATERMARK
+    ===================================== */
+
+    .journey-watermark{
+        font-size:170px;
+
+        letter-spacing:-14px;
+
+        bottom:-25px;
+    }
+
+}
+
+
+
+/* =========================================================
+   SMALL MOBILE
+   480px AND BELOW
+========================================================= */
+
+@media (max-width:480px){
+
+    /* =====================================
+       MAIN SECTION
+    ===================================== */
+
+    .journey-section{
+        min-height:790px;
+
+        padding:45px 16px 65px;
+    }
+
+
+    /* =====================================
+       HEADING
+    ===================================== */
+
+    .journey-heading{
+        font-size:31px;
+        line-height:38px;
+
+        letter-spacing:-1px;
+    }
+
+
+    /* =====================================
+       BUTTON
+    ===================================== */
+
+    .journey-btn{
+        margin-top:45px;
+
+        width:175px;
+        height:50px;
+
+        padding-left:30px;
+        padding-right:5px;
+
+        font-size:16px;
+    }
+
+
+    .journey-btn-circle{
+        width:40px;
+        height:40px;
+
+        font-size:20px;
+    }
+
+
+    /* =====================================
+       CHART CARD
+    ===================================== */
+
+    .journey-chart-card{
+        width:100%;
+
+        height:300px;
+
+        margin-top:60px;
+
+        padding:28px 20px 30px;
+
+        border-radius:16px;
+    }
+
+
+    /* =====================================
+       TOP ICON
+    ===================================== */
+
+    .chart-logo{
+        width:38px;
+        height:42px;
+    }
+
+
+    /* =====================================
+       CIRCLES
+    ===================================== */
+
+    .chart-circles span{
+        width:43px;
+        height:43px;
+
+        margin-left:-13px;
+
+        border-width:2px;
+    }
+
+
+    /* =====================================
+       CHART AREA
+    ===================================== */
+
+    .chart-area{
+        margin-top:38px;
+
+        gap:14px;
+    }
+
+
+    /* =====================================
+       LABELS
+    ===================================== */
+
+    .chart-labels{
+        width:37px;
+        height:125px;
+
+        font-size:12px;
+
+        gap:6px;
+    }
+
+
+    .chart-labels span:first-child{
+        top:-5px;
+    }
+
+
+    .chart-labels span:last-child{
+        top:5px;
+    }
+
+
+    /* =====================================
+       CHART BARS
+    ===================================== */
+
+    .chart-bars{
+        width:auto;
+        flex:1;
+
+        height:125px;
+
+        gap:3px;
+
+        padding-left:5px;
+    }
+
+
+    /* =====================================
+       BAR WIDTH
+    ===================================== */
+
+    .bar{
+        width:18px;
+
+        border-radius:40px;
+    }
+
+
+    /* =====================================
+       BAR HEIGHTS
+       Desktop proportion ছোট করা হয়েছে
+    ===================================== */
+
+    .bar-1{ height:41px; }
+    .bar-2{ height:77px; }
+    .bar-3{ height:100px; }
+    .bar-4{ height:123px; }
+    .bar-5{ height:70px; }
+
+    .bar-6{ height:108px; }
+    .bar-7{ height:41px; }
+    .bar-8{ height:93px; }
+    .bar-9{ height:123px; }
+    .bar-10{ height:93px; }
+
+
+    /* =====================================
+       WATERMARK
+    ===================================== */
+
+    .journey-watermark{
+        font-size:115px;
+
+        letter-spacing:-9px;
+
+        right:-10px;
+        bottom:-10px;
+    }
+
+}
+
+
+
+/* =========================================================
+   EXTRA SMALL MOBILE
+   375px AND BELOW
+========================================================= */
+
+@media (max-width:375px){
+
+    /* =====================================
+       MAIN SECTION
+    ===================================== */
+
+    .journey-section{
+        min-height:730px;
+
+        padding:40px 12px 55px;
+    }
+
+
+    /* =====================================
+       HEADING
+    ===================================== */
+
+    .journey-heading{
+        font-size:27px;
+
+        line-height:33px;
+    }
+
+
+    /* =====================================
+       BUTTON
+    ===================================== */
+
+    .journey-btn{
+        margin-top:38px;
+
+        width:160px;
+        height:46px;
+
+        padding-left:25px;
+
+        font-size:14px;
+    }
+
+
+    .journey-btn-circle{
+        width:36px;
+        height:36px;
+
+        font-size:18px;
+    }
+
+
+    /* =====================================
+       CHART CARD
+    ===================================== */
+
+    .journey-chart-card{
+        height:275px;
+
+        margin-top:50px;
+
+        padding:24px 14px 25px;
+    }
+
+
+    /* =====================================
+       TOP ELEMENTS
+    ===================================== */
+
+    .chart-logo{
+        width:34px;
+        height:38px;
+    }
+
+
+    .chart-circles span{
+        width:38px;
+        height:38px;
+
+        margin-left:-11px;
+    }
+
+
+    /* =====================================
+       CHART AREA
+    ===================================== */
+
+    .chart-area{
+        margin-top:32px;
+
+        gap:10px;
+    }
+
+
+    /* =====================================
+       LABELS
+    ===================================== */
+
+    .chart-labels{
+        width:34px;
+        height:110px;
+
+        font-size:11px;
+    }
+
+
+    /* =====================================
+       BARS AREA
+    ===================================== */
+
+    .chart-bars{
+        height:110px;
+
+        gap:2px;
+
+        padding-left:3px;
+    }
+
+
+    /* =====================================
+       BAR WIDTH
+    ===================================== */
+
+    .bar{
+        width:15px;
+    }
+
+
+    .bar-1{ height:36px; }
+    .bar-2{ height:68px; }
+    .bar-3{ height:88px; }
+    .bar-4{ height:108px; }
+    .bar-5{ height:61px; }
+
+    .bar-6{ height:95px; }
+    .bar-7{ height:36px; }
+    .bar-8{ height:82px; }
+    .bar-9{ height:108px; }
+    .bar-10{ height:82px; }
+
+
+    /* =====================================
+       WATERMARK
+    ===================================== */
+
+    .journey-watermark{
+        font-size:95px;
+
+        letter-spacing:-7px;
+
+        bottom:-5px;
     }
 
 }
