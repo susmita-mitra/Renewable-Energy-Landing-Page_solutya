@@ -209,9 +209,7 @@ body {
 
 
 
-/* =====================================
-   NAVBAR - CENTER MENU
-===================================== */
+/*NAVBAR - CENTER MENU*/
 
 .nav-menu {
     position: absolute;
@@ -229,9 +227,7 @@ body {
 
 
 
-/* =====================================
-   NAVBAR - NAVIGATION LINKS
-===================================== */
+/* NAVBAR - NAVIGATION LINKS*/
 
 .nav-menu a {
     font-family: "Open Sans", sans-serif;
@@ -260,9 +256,7 @@ body {
 
 
 
-/* =====================================
-   NAVBAR - RIGHT ACTION AREA
-===================================== */
+/*NAVBAR - RIGHT ACTION AREA*/
 
 .nav-actions {
     position: absolute;
@@ -286,9 +280,7 @@ body {
 
 
 
-/* =====================================
-   NAVBAR - COMMON BUTTON STYLE
-===================================== */
+/*NAVBAR - COMMON BUTTON STYLE*/
 
 .nav-actions button {
     border: none;
@@ -304,9 +296,7 @@ body {
 
 
 
-/* =====================================
-   NAVBAR - BELL BUTTON
-===================================== */
+/*NAVBAR - BELL BUTTON*/
 
 .bell-btn {
     width: 34px;
@@ -319,9 +309,7 @@ body {
 
 
 
-/* =====================================
-   NAVBAR - MENU BUTTON
-===================================== */
+/* NAVBAR - MENU BUTTON*/
 
 .menu-btn {
     width: 34px;
@@ -334,9 +322,7 @@ body {
 
 
 
-/* =====================================
-   NAVBAR - BUTTON ICON IMAGES
-===================================== */
+/*NAVBAR - BUTTON ICON IMAGES */
 
 .nav-actions img {
     width: 14px;
@@ -347,9 +333,7 @@ body {
 
 
 
-/* =====================================
-   HERO CONTENT
-===================================== */
+/*HERO CONTENT*/
 
 .hero-content {
     position: absolute;
@@ -362,9 +346,7 @@ body {
 
 
 
-/* =====================================
-   HERO SMALL HEADING
-===================================== */
+/*HERO SMALL HEADING*/
 
 .hero-subtitle {
     font-family: "Archivo", sans-serif;
@@ -382,9 +364,7 @@ body {
 
 
 
-/* =====================================
-   HERO MAIN TITLE
-===================================== */
+/* HERO MAIN TITLE*/
 
 .hero-title {
     font-family: "Archivo", sans-serif;
@@ -404,9 +384,7 @@ body {
 
 
 
-/* =====================================
-   HERO BOTTOM DESCRIPTION
-===================================== */
+/*HERO BOTTOM DESCRIPTION*/
 
 .hero-description {
     position: absolute;
@@ -430,20 +408,10 @@ body {
 
 
 
-/* =====================================
-   HERO RIGHT SIDE GREY PANEL
-===================================== */
+/*HERO RIGHT SIDE GREY PANEL*/
 
 .hero-right-panel {
     position: absolute;
-
-    /*
-       Original values:
-       top = 69px
-       width = 626px
-       height = 819px
-    */
-
     top: calc(69 / 886 * 100%);
 
     right: 0;
@@ -460,9 +428,7 @@ body {
 
 
 
-/* =====================================
-   HERO BOTTOM RIGHT ACTION WRAPPER
-===================================== */
+/* HERO BOTTOM RIGHT ACTION WRAPPER*/
 
 .hero-action {
     position: absolute;
@@ -478,9 +444,7 @@ body {
 
 
 
-/* =====================================
-   COMMON CIRCLE STYLE
-===================================== */
+/*COMMON CIRCLE STYLE*/
 
 .hero-circle {
     position: absolute;
@@ -493,9 +457,7 @@ body {
 
 
 
-/* =====================================
-   LEFT EMPTY CIRCLE
-===================================== */
+/*LEFT EMPTY CIRCLE*/
 
 .hero-circle-left {
     left: 0;
@@ -508,9 +470,7 @@ body {
 
 
 
-/* =====================================
-   RIGHT GREEN CIRCLE
-===================================== */
+/*RIGHT GREEN CIRCLE*/
 
 .hero-circle-right {
     left: 48px;
@@ -527,9 +487,7 @@ body {
 
 
 
-/* =====================================
-   PLUS ICON IMAGE
-===================================== */
+/*PLUS ICON IMAGE*/
 
 .plus-icon {
     width: 22px;
@@ -540,9 +498,7 @@ body {
 
 
 
-/* =====================================================
-   POWERING THE FUTURE SECTION
-===================================================== */
+/*POWERING THE FUTURE SECTION*/
 
 .future-section {
     width: calc(100% - 48px);
@@ -557,9 +513,7 @@ body {
 
 
 
-/* =====================================================
-   SECTION HEADING
-===================================================== */
+/*SECTION HEADING*/
 
 .section-heading {
     text-align: center;
@@ -592,9 +546,7 @@ body {
 
 
 
-/* =====================================================
-   FUTURE MAIN CONTENT
-===================================================== */
+/*FUTURE MAIN CONTENT*/
 
 .future-main {
 
@@ -610,9 +562,7 @@ body {
 
 
 
-/* =====================================================
-   LEFT VISUAL CARD WRAPPER
-===================================================== */
+/*LEFT VISUAL CARD WRAPPER*/
 
 .future-visual-card {
 
@@ -637,28 +587,162 @@ body {
 
 
 
-/* =====================================================
-   EFFICIENCY CARD
-===================================================== */
+/*EFFICIENCY CARD*/
 
-.efficiency-card {
-    width: 313px;
-    height: 368px;
+.efficiency-card{
+    position:relative;
 
-    flex-shrink: 0;
+    width:280px;
+    height:329px;
 
-    padding: 35px;
+    padding:28px 31px;
 
-    border-radius: 20px;
+    background:linear-gradient(
+        to bottom,
+        #06343D,
+        #07353C
+    );
 
-   
-    background: linear-gradient(to left bottom,
-            rgba(5, 41, 48, 1) 0%,
-            rgba(15, 69, 81, 1) 100%);
+    border-radius:20px;
 
-    color: #ffffff;
+    color:#ffffff;
 }
 
+
+/*TOP AREA*/
+
+.efficiency-top{
+    display:flex;
+
+    justify-content:space-between;
+    align-items:flex-start;
+}
+
+
+/*PERCENTAGE*/
+
+.efficiency-top h3{
+    margin:0;
+
+    font-family:"Archivo", sans-serif;
+
+    font-size:44px;
+    font-weight:400;
+
+    line-height:100%;
+}
+
+
+/*EFFICIENCY TEXT*/
+
+.efficiency-top p{
+    margin:12px 0 0;
+
+    font-family:"Archivo", sans-serif;
+
+    font-size:20px;
+    font-weight:400;
+}
+
+
+/*PLUS BUTTON*/
+
+.efficiency-plus{
+    width:35px;
+    height:35px;
+
+    border:none;
+    border-radius:50%;
+
+    background:#A7BD3D;
+
+    color:#052930;
+
+    font-size:25px;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+
+/*DOT CHART AREA*/
+
+.efficiency-chart{
+    position:absolute;
+
+    left:39px;
+    bottom:31px;
+
+    display:flex;
+
+    align-items:flex-end;
+
+    gap:6px;
+}
+
+
+/*EACH DOT COLUMN*/
+
+.dot-column{
+    position:relative;
+
+    display:flex;
+
+    flex-direction:column-reverse;
+
+    gap:6px;
+}
+
+
+/*COMMON DOT*/
+
+.dot{
+    width:14px;
+    height:14px;
+
+    border-radius:50%;
+
+    display:block;
+}
+
+
+/*WHITE DOT*/
+
+.dot-white{
+    background:#ffffff;
+}
+
+
+/*GREY DOT*/
+
+.dot-grey{
+    background:#709098;
+}
+
+
+
+
+/*CHART LABEL*/
+
+.dot-label{
+    position:absolute;
+
+    bottom:calc(100% + 12px);
+
+    left:50%;
+
+    transform:translateX(-50%);
+
+    font-family:"Archivo", sans-serif;
+
+    font-size:16px;
+    font-weight:400;
+
+    white-space:nowrap;
+
+    color:#ffffff;
+}
 
 
 /* =====================================
@@ -690,9 +774,7 @@ body {
 
 
 
-/* =====================================
-   SMALL GREEN PLUS BUTTON
-===================================== */
+/*SMALL GREEN PLUS BUTTON */
 
 .small-plus-btn {
     width: 40px;
@@ -727,9 +809,7 @@ body {
 
 
 
-/* =====================================================
-   GREY PLACEHOLDER CARD
-===================================================== */
+/*GREY PLACEHOLDER CARD*/
 
 .future-image-card {
 
@@ -1733,9 +1813,7 @@ body {
 
 
 
-/* =====================================================
-   STATISTIC BOTTOM LINE
-===================================================== */
+/*STATISTIC BOTTOM LINE*/
 
 .trust-stat::after{
     content:"";
@@ -1754,9 +1832,7 @@ body {
 
 
 
-/* =====================================================
-   MIDDLE GREY IMAGE BOX
-===================================================== */
+/*MIDDLE GREY IMAGE BOX*/
 
 .trust-image-box{
 
@@ -1772,9 +1848,7 @@ body {
 
 
 
-/* =====================================================
-   RIGHT TEXT CONTENT
-===================================================== */
+/*RIGHT TEXT CONTENT*/
 
 .trust-detail{
     width:412px;
@@ -1784,9 +1858,7 @@ body {
 
 
 
-/* =====================================
-   RIGHT CONTENT HEADING
-===================================== */
+/*RIGHT CONTENT HEADING*/
 
 .trust-detail h4{
     margin:0;
@@ -1803,9 +1875,7 @@ body {
 
 
 
-/* =====================================
-   RIGHT CONTENT PARAGRAPH
-===================================== */
+/* RIGHT CONTENT PARAGRAPH */
 
 .trust-detail p{
     margin:0;
@@ -1827,9 +1897,7 @@ body {
 
 
 
-/* =====================================
-   LEARN MORE LINK
-===================================== */
+/*LEARN MORE LINK*/
 
 .trust-detail a{
     font-family:"Archivo", sans-serif;
@@ -1846,9 +1914,7 @@ body {
 
 
 
-/* =====================================================
-   VIEW ALL BUTTON
-===================================================== */
+/*VIEW ALL BUTTON*/
 
 .view-all-btn{
 
@@ -1894,6 +1960,8 @@ body {
 
     width:1440px;
     max-width:100%;
+    margin-left: 80px;
+    margin-right: 80px;
 
 
     height:661px;
@@ -2242,15 +2310,328 @@ body {
 
 
 
+/*FOOTER SECTION */
+
+.footer-section{
+    width:1388px;
+    max-width:calc(100% - 48px);
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 156px;
+
+
+    background:#ffffff;
+}
+
+
+
+/*FOOTER TOP AREA*/
+
+.footer-top{
+    display:flex;
+
+    justify-content:space-between;
+    align-items:flex-start;
+}
+
+
+
+/*FOOTER TOP LEFT*/
+
+.footer-top-left{
+    display:flex;
+    flex-direction:column;
+    gap:43px;
+}
+
+
+
+/*FOOTER SMALL LEFT HEADING*/
+
+.footer-top-left h4{
+    margin:0;
+
+    font-family:"Inter", sans-serif;
+    font-size:24px;
+
+    font-weight:400;
+
+    line-height:100%;
+    letter-spacing: -1px;
+    margin-left: 80px;
+
+    color:#000000;
+}
+
+
+
+/*FOOTER BUTTON GROUP*/
+
+.footer-buttons{
+    display:flex;
+    align-items:center;
+    gap:10px;
+}
+
+
+
+/*COMMON FOOTER BUTTON*/
+
+.footer-btn{
+    width:228px;
+    height:64px;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border-radius:66px;
+    background:#EAEAEA;
+    font-family:"Archivo", sans-serif;
+    font-size:24px;
+    letter-spacing: -1px;
+    margin-left: 80px;
+
+    font-weight:400;
+
+    color:#000000;
+    text-decoration:none;
+}
+
+
+
+/*ACTIVE FOOTER BUTTON */
+
+.footer-btn-active{
+        background: linear-gradient(to left bottom,
+            rgba(5, 41, 48, 1) 0%,
+            rgba(15, 69, 81, 1) 100%);
+
+    color:#ffffff;
+}
+
+
+
+/*FOOTER RIGHT LARGE HEADING*/
+
+.footer-heading{
+    width:468.66px;
+
+    margin:0;
+
+    font-family:"Archivo", sans-serif;
+    font-size:57.64px;
+
+    font-weight:400;
+    line-height:67.54px;
+
+    letter-spacing:-2.64px;
+
+    text-align:right;
+}
+
+
+
+/*FOOTER HEADING LINES*/
+
+.footer-heading span{
+    display:block;
+}
+
+
+/* Green Text */
+.footer-heading span:nth-child(1),
+.footer-heading span:nth-child(2){
+    color:#A7BD3D;
+}
+
+
+/* Light Muted Text */
+.footer-heading span:nth-child(3){
+    color:#D3D7C2;
+}
+
+
+
+/*FOOTER HORIZONTAL DIVIDER*/
+
+.footer-divider{
+    width:1280px;
+
+    height:1px;
+
+
+    margin-bottom:32px;
+    margin-left: 80px;
+    margin-right: 80px;
+
+    background:#000000;
+}
+
+
+
+/*FOOTER BOTTOM AREA */
+
+
+.footer-bottom{
+    display:grid;
+    grid-template-columns:300px 1fr;
+    column-gap:305.38px;
+    align-items:start;
+}
+
+
+/*SOCIAL MEDIA AREA*/
+
+.footer-social{
+    display:flex;
+    flex-direction:column;
+    align-items:flex-start;
+}
+
+
+/* SOCIAL MEDIA TITLE */
+
+.footer-social-title{
+    margin:0;
+
+    font-family:"Inter", sans-serif;
+    font-size:24px;
+    font-weight:400;
+
+    color:#000000;
+    letter-spacing:-1px;
+
+    margin-top:119px;
+    margin-bottom:41px;
+    margin-left:80px;
+}
+
+
+/* SOCIAL MEDIA IMAGE */
+
+.social-icons-img{
+    width:146.62px;
+    height:38.55px;
+
+    margin-top:187px;
+    margin-left:80px;
+    margin-bottom:80.45px;
+
+    display:block;
+    object-fit:contain;
+}
+
+
+/* =========================================
+   FOOTER LINKS AREA
+========================================= */
+
+.footer-links{
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+    column-gap:100px;
+    margin-right: 30px;
+    margin-top: -30px;
+    transform:translateX(-40px);
+
+    position:relative;
+
+    background:
+        linear-gradient(#000000, #000000)
+        0 86px / 100% 1px no-repeat,
+
+        linear-gradient(#000000, #000000)
+        0 172px / 100% 1px no-repeat,
+
+        linear-gradient(#000000, #000000)
+        0 258px / 100% 1px no-repeat;
+}
+
+
+.footer-column{
+    display:flex;
+    flex-direction:column;
+}
+
+
+.footer-column a{
+    width:100%;
+
+    height:86px;
+    min-height:86px;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    border-bottom:none;
+
+    font-family:"Archivo", sans-serif;
+    font-size:19px;
+    font-weight:400;
+    letter-spacing:-1px;
+
+    color:#6E6E6E;
+    text-decoration:none;
+
+    box-sizing:border-box;
+}
+
+
+.footer-column a span:last-child{
+    width:10px;
+    height:10px;
+
+    margin:0 6px 0 0;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+
+.footer-column a span:last-child img{
+    width:10px;
+    height:10px;
+    display:block;
+    object-fit:contain;
+}
+
+
+/* =========================================
+   HOVER EFFECT
+========================================= */
+
+.footer-column a{
+    transition:0.3s ease;
+}
+
+.footer-column a:hover{
+    color:#052930;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*RESPONSIVE DESIGN*/
 
 
-/* =========================================================
-   SMALL LAPTOP / LARGE TABLET
-   1200px AND BELOW
-========================================================= */
+/*SMALL LAPTOP / LARGE TABLET 1200px AND BELOW*/
 
 @media (max-width:1200px) {
 
@@ -2387,16 +2768,11 @@ body {
 
 
 
-/* =========================================================
-   TABLET
-   992px AND BELOW
-========================================================= */
+/*TABLET 992px AND BELOW*/
 
 @media (max-width:992px) {
 
-    /* =========================
-       HERO
-    ========================= */
+    /*HERO*/
 
     .hero {
         width: calc(100% - 24px);
@@ -2413,9 +2789,7 @@ body {
     }
 
 
-    /* =========================
-       NAVBAR
-    ========================= */
+    /*NAVBAR*/
 
     .navbar {
         height: 80px;
@@ -2464,9 +2838,7 @@ body {
     }
 
 
-    /* =========================
-       HERO CONTENT
-    ========================= */
+    /*HERO CONTENT*/
 
     .hero-content {
         left: 7%;
@@ -2483,7 +2855,7 @@ body {
 
 
     .hero-title {
-        font-size: 277.2px;
+        font-size: 200px;
         letter-spacing: -23px;
         font-weight: 400px;
         line-height: 100%;
@@ -2505,9 +2877,7 @@ body {
     }
 
 
-    /* =========================
-       RIGHT GREY PANEL
-    ========================= */
+    /*RIGHT GREY PANEL*/
 
     .hero-right-panel {
         top: 7.8%;
@@ -2519,9 +2889,7 @@ body {
     }
 
 
-    /* =========================
-       BOTTOM ACTION
-    ========================= */
+    /*BOTTOM ACTION */
 
     .hero-action {
         right: 2%;
@@ -2534,16 +2902,11 @@ body {
 
 
 
-/* =========================================================
-   MOBILE
-   768px AND BELOW
-========================================================= */
+/*MOBILE 768px AND BELOW*/
 
 @media (max-width:768px) {
 
-    /* =========================
-       HERO MAIN
-    ========================= */
+    /*HERO MAIN*/
 
     .hero {
         width: calc(100% - 20px);
@@ -2561,18 +2924,14 @@ body {
     }
 
 
-    /* =========================
-       DESKTOP SVG HIDE
-    ========================= */
+    /*DESKTOP SVG HIDE*/
 
     .hero-bg {
         display: none;
     }
 
 
-    /* =========================
-       DIVIDER LINES
-    ========================= */
+    /*DIVIDER LINES*/
 
     .hero::before {
         top: 74%;
@@ -2584,9 +2943,7 @@ body {
     }
 
 
-    /* =========================
-       NAVBAR
-    ========================= */
+    /*NAVBAR */
 
     .navbar {
         height: 70px;
@@ -2642,9 +2999,7 @@ body {
     }
 
 
-    /* =========================
-       HERO CONTENT
-    ========================= */
+    /*HERO CONTENT*/
 
     .hero-content {
         left: 6%;
@@ -2679,9 +3034,7 @@ body {
     }
 
 
-    /* =========================
-       HERO DESCRIPTION
-    ========================= */
+    /*HERO DESCRIPTION*/
 
     .hero-description {
         left: 6%;
@@ -2696,9 +3049,7 @@ body {
     }
 
 
-    /* =========================
-       RIGHT GREY PANEL
-    ========================= */
+    /*RIGHT GREY PANEL*/
 
     .hero-right-panel {
         top: 0;
@@ -2716,9 +3067,7 @@ body {
     }
 
 
-    /* =========================
-       BOTTOM ACTION
-    ========================= */
+    /*BOTTOM ACTION*/
 
     .hero-action {
         right: 1.5%;
@@ -2731,16 +3080,11 @@ body {
 
 
 
-/* =========================================================
-   SMALL MOBILE
-   480px AND BELOW
-========================================================= */
+/*SMALL MOBILE 480px AND BELOW*/
 
 @media (max-width:480px) {
 
-    /* =========================
-       HERO
-    ========================= */
+    /*HERO*/
 
     .hero {
         width: calc(100% - 12px);
@@ -2751,9 +3095,7 @@ body {
     }
 
 
-    /* =========================
-       DIVIDER LINES
-    ========================= */
+    /*DIVIDER LINES*/
 
     .hero::before {
         top: 75%;
@@ -2765,9 +3107,7 @@ body {
     }
 
 
-    /* =========================
-       NAVBAR
-    ========================= */
+    /*NAVBAR*/
 
     .navbar {
         height: 62px;
@@ -2809,9 +3149,7 @@ body {
     }
 
 
-    /* =========================
-       HERO CONTENT
-    ========================= */
+    /*HERO CONTENT*/
 
     .hero-content {
         left: 5%;
@@ -2842,9 +3180,7 @@ body {
     }
 
 
-    /* =========================
-       DESCRIPTION
-    ========================= */
+    /*DESCRIPTION*/
 
     .hero-description {
         left: 5%;
@@ -2859,9 +3195,7 @@ body {
     }
 
 
-    /* =========================
-       RIGHT PANEL
-    ========================= */
+    /*RIGHT PANEL*/
 
     .hero-right-panel {
         width: 27%;
@@ -2875,9 +3209,7 @@ body {
     }
 
 
-    /* =========================
-       ACTION
-    ========================= */
+    /*ACTION*/
 
     .hero-action {
         right: 0;
@@ -2890,16 +3222,11 @@ body {
 
 
 
-/* =========================================================
-   EXTRA SMALL MOBILE
-   375px AND BELOW
-========================================================= */
+/*EXTRA SMALL MOBILE 375px AND BELOW*/
 
 @media (max-width:375px) {
 
-    /* =========================
-       HERO
-    ========================= */
+    /*HERO*/
 
     .hero {
         width: calc(100% - 10px);
@@ -2910,9 +3237,7 @@ body {
     }
 
 
-    /* =========================
-       HERO CONTENT
-    ========================= */
+    /* HERO CONTENT*/
 
     .hero-content {
         left: 5%;
@@ -2936,9 +3261,7 @@ body {
     }
 
 
-    /* =========================
-       DESCRIPTION
-    ========================= */
+    /*DESCRIPTION*/
 
     .hero-description {
         left: 5%;
@@ -2953,9 +3276,7 @@ body {
     }
 
 
-    /* =========================
-       RIGHT PANEL
-    ========================= */
+    /*RIGHT PANEL*/
 
     .hero-right-panel {
         width: 26%;
@@ -2967,9 +3288,7 @@ body {
     }
 
 
-    /* =========================
-       ACTION CIRCLES
-    ========================= */
+    /*ACTION CIRCLES*/
 
     .hero-action {
         right: -1%;
@@ -2983,16 +3302,11 @@ body {
 
 
 
-/* =========================================================
-   SMALL LAPTOP
-   1200px AND BELOW
-========================================================= */
+/*SMALL LAPTOP 1200px AND BELOW*/
 
 @media (max-width:1200px) {
 
-    /* =====================================
-       FUTURE SECTION
-    ===================================== */
+    /* FUTURE SECTION*/
 
     .future-section {
         width: calc(100% - 32px);
@@ -3001,9 +3315,7 @@ body {
     }
 
 
-    /* =====================================
-       SECTION HEADING
-    ===================================== */
+    /*SECTION HEADING*/
 
     .section-heading {
         margin-bottom: 70px;
@@ -3019,18 +3331,14 @@ body {
     }
 
 
-    /* =====================================
-       FUTURE MAIN CONTENT
-    ===================================== */
+    /*FUTURE MAIN CONTENT*/
 
     .future-main {
         gap: 40px;
     }
 
 
-    /* =====================================
-       LEFT VISUAL CARD
-    ===================================== */
+    /*LEFT VISUAL CARD*/
 
     .future-visual-card {
         width: 68%;
@@ -3042,9 +3350,7 @@ body {
     }
 
 
-    /* =====================================
-       EFFICIENCY CARD
-    ===================================== */
+    /*EFFICIENCY CARD*/
 
     .efficiency-card {
         width: 38%;
@@ -3079,9 +3385,7 @@ body {
     }
 
 
-    /* =====================================
-       GREY CARD
-    ===================================== */
+    /*GREY CARD*/
 
     .future-image-card {
         height: 348px;
@@ -3089,9 +3393,7 @@ body {
     }
 
 
-    /* =====================================
-       RIGHT INFORMATION
-    ===================================== */
+    /*RIGHT INFORMATION*/
 
     .future-info {
         min-height: 360px;
@@ -3124,9 +3426,7 @@ body {
     }
 
 
-    /* =====================================
-       BOTTOM CONTENT
-    ===================================== */
+    /*BOTTOM CONTENT*/
 
     .future-bottom {
         grid-template-columns: 250px 1fr;
@@ -3145,16 +3445,11 @@ body {
 
 
 
-/* =========================================================
-   TABLET
-   992px AND BELOW
-========================================================= */
+/*TABLET 992px AND BELOW*/
 
 @media (max-width:992px) {
 
-    /* =====================================
-       FUTURE SECTION
-    ===================================== */
+    /*FUTURE SECTION*/
 
     .future-section {
         width: calc(100% - 24px);
@@ -3163,9 +3458,7 @@ body {
     }
 
 
-    /* =====================================
-       SECTION HEADING
-    ===================================== */
+    /*SECTION HEADING*/
 
     .section-heading {
         margin-bottom: 60px;
@@ -3190,9 +3483,7 @@ body {
     }
 
 
-    /* =====================================
-       LEFT VISUAL CARD
-    ===================================== */
+    /*LEFT VISUAL CARD*/
 
     .future-visual-card {
         width: 100%;
@@ -3204,9 +3495,7 @@ body {
     }
 
 
-    /* =====================================
-       EFFICIENCY CARD
-    ===================================== */
+    /*EFFICIENCY CARD*/
 
     .efficiency-card {
         width: 40%;
@@ -3243,9 +3532,7 @@ body {
     }
 
 
-    /* =====================================
-       RIGHT INFORMATION
-    ===================================== */
+    /*RIGHT INFORMATION*/
 
     .future-info {
         width: 100%;
@@ -3271,9 +3558,7 @@ body {
     }
 
 
-    /* =====================================
-       BOTTOM AREA
-    ===================================== */
+    /*BOTTOM AREA*/
 
     .future-bottom {
         grid-template-columns: 220px 1fr;
@@ -3297,16 +3582,11 @@ body {
 
 
 
-/* =========================================================
-   MOBILE
-   768px AND BELOW
-========================================================= */
+/*MOBILE 768px AND BELOW*/
 
 @media (max-width:768px) {
 
-    /* =====================================
-       FUTURE SECTION
-    ===================================== */
+    /*FUTURE SECTION*/
 
     .future-section {
         width: calc(100% - 20px);
@@ -3315,9 +3595,7 @@ body {
     }
 
 
-    /* =====================================
-       SECTION HEADING
-    ===================================== */
+    /*SECTION HEADING*/
 
     .section-heading {
         margin-bottom: 50px;
@@ -3333,18 +3611,14 @@ body {
     }
 
 
-    /* =====================================
-       MAIN CONTENT
-    ===================================== */
+    /* MAIN CONTENT*/
 
     .future-main {
         gap: 45px;
     }
 
 
-    /* =====================================
-       VISUAL CARD WRAPPER
-    ===================================== */
+    /*VISUAL CARD WRAPPER*/
 
     .future-visual-card {
         width: 100%;
@@ -3358,9 +3632,7 @@ body {
     }
 
 
-    /* =====================================
-       EFFICIENCY CARD
-    ===================================== */
+    /*EFFICIENCY CARD */
 
     .efficiency-card {
         width: 42%;
@@ -3397,9 +3669,7 @@ body {
     }
 
 
-    /* =====================================
-       GREY CARD
-    ===================================== */
+    /*GREY CARD */
 
     .future-image-card {
         height: 322px;
@@ -3409,9 +3679,7 @@ body {
     }
 
 
-    /* =====================================
-       RIGHT INFORMATION
-    ===================================== */
+    /*RIGHT INFORMATION*/
 
     .future-info {
         min-height: 290px;
@@ -3480,16 +3748,11 @@ body {
 
 
 
-/* =========================================================
-   SMALL MOBILE
-   480px AND BELOW
-========================================================= */
+/*SMALL MOBILE 480px AND BELOW */
 
 @media (max-width:480px) {
 
-    /* =====================================
-       FUTURE SECTION
-    ===================================== */
+    /*FUTURE SECTION */
 
     .future-section {
         width: calc(100% - 12px);
@@ -3498,9 +3761,7 @@ body {
     }
 
 
-    /* =====================================
-       SECTION HEADING
-    ===================================== */
+    /*SECTION HEADING*/
 
     .section-heading {
         margin-bottom: 45px;
@@ -3516,9 +3777,7 @@ body {
     }
 
 
-    /* =====================================
-       MAIN CONTENT
-    ===================================== */
+    /*MAIN CONTENT */
 
     .future-main {
         gap: 40px;
@@ -3543,9 +3802,7 @@ body {
     }
 
 
-    /* =====================================
-       EFFICIENCY CARD
-    ===================================== */
+    /*EFFICIENCY CARD */
 
     .efficiency-card {
         width: 100%;
@@ -3582,9 +3839,7 @@ body {
     }
 
 
-    /* =====================================
-       GREY CARD
-    ===================================== */
+    /*GREY CARD*/
 
     .future-image-card {
         width: 100%;
@@ -3654,9 +3909,7 @@ body {
     }
 
 
-    /* =====================================
-       BOTTOM CONTENT
-    ===================================== */
+    /*BOTTOM CONTENT */
 
     .future-bottom {
         gap: 25px;
@@ -3689,16 +3942,11 @@ body {
 
 
 
-/* =========================================================
-   EXTRA SMALL MOBILE
-   375px AND BELOW
-========================================================= */
+/*EXTRA SMALL MOBILE 375px AND BELOW*/
 
 @media (max-width:375px) {
 
-    /* =====================================
-       FUTURE SECTION
-    ===================================== */
+    /*FUTURE SECTION */
 
     .future-section {
         width: calc(100% - 10px);
@@ -3707,9 +3955,7 @@ body {
     }
 
 
-    /* =====================================
-       HEADING
-    ===================================== */
+    /*HEADING*/
 
     .section-heading {
         margin-bottom: 40px;
@@ -3723,9 +3969,7 @@ body {
     }
 
 
-    /* =====================================
-       EFFICIENCY CARD
-    ===================================== */
+    /*EFFICIENCY CARD*/
 
     .efficiency-card {
         height: 280px;
@@ -3751,9 +3995,7 @@ body {
     }
 
 
-    /* =====================================
-       GREY CARD
-    ===================================== */
+    /*GREY CARD */
 
     .future-image-card {
         height: 220px;
@@ -3761,9 +4003,7 @@ body {
     }
 
 
-    /* =====================================
-       ROUND ARROW
-    ===================================== */
+    /*ROUND ARROW */
 
     .round-arrow-btn {
         width: 62px;
@@ -3777,9 +4017,7 @@ body {
     }
 
 
-    /* =====================================
-       NATIONAL EXPANSION
-    ===================================== */
+    /*NATIONAL EXPANSION*/
 
     .national-expansion h3 {
         font-size: 17px;
@@ -3793,9 +4031,7 @@ body {
     }
 
 
-    /* =====================================
-       BOTTOM AREA
-    ===================================== */
+    /*BOTTOM AREA*/
 
     .future-bottom-title {
         font-size: 18px;
@@ -3811,30 +4047,21 @@ body {
 }
 
 
-/* =========================================================
-   OUR LONG-TERM COMMITMENT SECTION - RESPONSIVE
-========================================================= */
+/*OUR LONG-TERM COMMITMENT SECTION - RESPONSIVE */
 
 
-/* =========================================================
-   SMALL LAPTOP
-   1200px AND BELOW
-========================================================= */
+/*SMALL LAPTOP 1200px AND BELOW */
 
 @media (max-width:1200px) {
 
-    /* =====================================
-       MAIN SECTION
-    ===================================== */
+    /*MAIN SECTION */
 
     .commitment-section {
         width: calc(100% - 32px);
     }
 
 
-    /* =====================================
-       SECTION HEADING
-    ===================================== */
+    /*SECTION HEADING*/
 
     .commitment-heading h2 {
         width: 800px;
@@ -3849,9 +4076,7 @@ body {
     }
 
 
-    /* =====================================
-       TOP RIGHT ARROW
-    ===================================== */
+    /*TOP RIGHT ARROW*/
 
     .commitment-arrow {
         left: auto;
@@ -3864,9 +4089,7 @@ body {
     }
 
 
-    /* =====================================
-       CONTENT GRID
-    ===================================== */
+    /*CONTENT GRID*/
 
     .commitment-grid {
         grid-template-columns: 1fr 1fr;
@@ -3878,9 +4101,7 @@ body {
     }
 
 
-    /* =====================================
-       NORMAL CONTENT ITEM
-    ===================================== */
+    /*NORMAL CONTENT ITEM*/
 
     .commitment-item {
         margin-left: 75px;
@@ -3900,18 +4121,14 @@ body {
     }
 
 
-    /* =====================================
-       ITEM ICON
-    ===================================== */
+    /*ITEM ICON*/
 
     .commitment-icon {
         margin-bottom: 42px;
     }
 
 
-    /* =====================================
-       SUSTAINABLE CARD
-    ===================================== */
+    /*SUSTAINABLE CARD*/
 
     .sustainable-card {
         width: 100%;
@@ -3942,9 +4159,7 @@ body {
     }
 
 
-    /* =====================================
-       VERTICAL LINE
-    ===================================== */
+    /*VERTICAL LINE*/
 
     .line-item::before {
         left: -65px;
@@ -3956,25 +4171,18 @@ body {
 
 
 
-/* =========================================================
-   TABLET
-   992px AND BELOW
-========================================================= */
+/* TABLET 992px AND BELOW*/
 
 @media (max-width:992px) {
 
-    /* =====================================
-       MAIN SECTION
-    ===================================== */
+    /*MAIN SECTION*/
 
     .commitment-section {
         width: calc(100% - 24px);
     }
 
 
-    /* =====================================
-       SECTION HEADING
-    ===================================== */
+    /*SECTION HEADING*/
 
     .commitment-heading h2 {
         width: 700px;
@@ -3990,9 +4198,7 @@ body {
     }
 
 
-    /* =====================================
-       TOP ARROW
-    ===================================== */
+    /*TOP ARROW*/
 
     .commitment-arrow {
         left: auto;
@@ -4005,9 +4211,7 @@ body {
     }
 
 
-    /* =====================================
-       GRID
-    ===================================== */
+    /*GRID*/
 
     .commitment-grid {
         grid-template-columns: 1fr 1fr;
@@ -4019,9 +4223,7 @@ body {
     }
 
 
-    /* =====================================
-       NORMAL ITEMS
-    ===================================== */
+    /*NORMAL ITEMS*/
 
     .commitment-item {
         margin-left: 55px;
@@ -4046,9 +4248,7 @@ body {
     }
 
 
-    /* =====================================
-       SUSTAINABLE CARD
-    ===================================== */
+    /* SUSTAINABLE CARD*/
 
     .sustainable-card {
         width: 100%;
@@ -4080,9 +4280,7 @@ body {
     }
 
 
-    /* =====================================
-       VERTICAL LINE
-    ===================================== */
+    /*VERTICAL LINE*/
 
     .line-item::before {
         left: -45px;
@@ -4095,25 +4293,18 @@ body {
 
 
 
-/* =========================================================
-   MOBILE
-   768px AND BELOW
-========================================================= */
+/*MOBILE 768px AND BELOW*/
 
 @media (max-width:768px) {
 
-    /* =====================================
-       MAIN SECTION
-    ===================================== */
+    /*MAIN SECTION*/
 
     .commitment-section {
         width: calc(100% - 20px);
     }
 
 
-    /* =====================================
-       HEADING
-    ===================================== */
+    /*HEADING*/
 
     .commitment-heading h2 {
         width: calc(100% - 80px);
@@ -4130,9 +4321,7 @@ body {
     }
 
 
-    /* =====================================
-       TOP RIGHT ARROW
-    ===================================== */
+    /* TOP RIGHT ARROW*/
 
     .commitment-arrow {
         left: auto;
@@ -4157,9 +4346,7 @@ body {
     }
 
 
-    /* =====================================
-       COMMITMENT ITEMS
-    ===================================== */
+    /*COMMITMENT ITEMS*/
 
     .commitment-item {
         margin-left: 60px;
@@ -4189,9 +4376,7 @@ body {
     }
 
 
-    /* =====================================
-       SUSTAINABLE CARD
-    ===================================== */
+    /* SUSTAINABLE CARD*/
 
     .sustainable-card {
         width: 100%;
@@ -4225,9 +4410,7 @@ body {
     }
 
 
-    /* =====================================
-       VERTICAL LINE
-    ===================================== */
+    /* VERTICAL LINE*/
 
     .line-item::before {
         left: -45px;
@@ -4240,25 +4423,18 @@ body {
 
 
 
-/* =========================================================
-   SMALL MOBILE
-   480px AND BELOW
-========================================================= */
+/*SMALL MOBILE 480px AND BELOW*/
 
 @media (max-width:480px) {
 
-    /* =====================================
-       MAIN SECTION
-    ===================================== */
+    /*MAIN SECTION*/
 
     .commitment-section {
         width: calc(100% - 12px);
     }
 
 
-    /* =====================================
-       HEADING
-    ===================================== */
+    /*HEADING*/
 
     .commitment-heading h2 {
         width: calc(100% - 60px);
@@ -4274,9 +4450,7 @@ body {
     }
 
 
-    /* =====================================
-       TOP ARROW
-    ===================================== */
+    /*TOP ARROW*/
 
     .commitment-arrow {
         right: 5px;
@@ -4287,9 +4461,7 @@ body {
     }
 
 
-    /* =====================================
-       GRID
-    ===================================== */
+    /*GRID*/
 
     .commitment-grid {
         grid-template-columns: 1fr;
@@ -4300,9 +4472,7 @@ body {
     }
 
 
-    /* =====================================
-       NORMAL ITEMS
-    ===================================== */
+    /*NORMAL ITEMS*/
 
     .commitment-item {
         margin-left: 42px;
@@ -4330,9 +4500,7 @@ body {
     }
 
 
-    /* =====================================
-       VERTICAL LINE
-    ===================================== */
+    /* VERTICAL LINE*/
 
     .line-item::before {
         left: -30px;
@@ -4387,16 +4555,11 @@ body {
 
 
 
-/* =========================================================
-   EXTRA SMALL MOBILE
-   375px AND BELOW
-========================================================= */
+/*EXTRA SMALL MOBILE  375px AND BELOW */
 
 @media (max-width:375px) {
 
-    /* =====================================
-       HEADING
-    ===================================== */
+    /*HEADING*/
 
     .commitment-heading h2 {
         width: calc(100% - 50px);
@@ -4408,9 +4571,7 @@ body {
     }
 
 
-    /* =====================================
-       TOP ARROW
-    ===================================== */
+    /*TOP ARROW*/
 
     .commitment-arrow {
         width: 34px;
@@ -4421,9 +4582,7 @@ body {
     }
 
 
-    /* =====================================
-       GRID
-    ===================================== */
+    /*GRID*/
 
     .commitment-grid {
         row-gap: 40px;
@@ -4458,9 +4617,7 @@ body {
     }
 
 
-    /* =====================================
-       VERTICAL LINE
-    ===================================== */
+    /*VERTICAL LINE*/
 
     .line-item::before {
         left: -25px;
@@ -4503,30 +4660,21 @@ body {
 
 
 
-/* =========================================================
-   SMART RENEWABLE ENERGY SECTION - RESPONSIVE
-========================================================= */
+/*SMART RENEWABLE ENERGY SECTION - RESPONSIVE */
 
 
-/* =========================================================
-   SMALL LAPTOP
-   1200px AND BELOW
-========================================================= */
+/*SMALL LAPTOP 1200px AND BELOW*/
 
 @media (max-width:1200px){
 
-    /* =====================================
-       MAIN SECTION
-    ===================================== */
+    /*MAIN SECTION*/
 
     .smart-energy-section{
         width:calc(100% - 32px);
     }
 
 
-    /* =====================================
-       TOP AREA
-    ===================================== */
+    /*TOP AREA*/
 
     .smart-energy-top{
         grid-template-columns:1fr 1fr;
@@ -4537,9 +4685,7 @@ body {
     }
 
 
-    /* =====================================
-       LEFT CARD
-    ===================================== */
+    /*LEFT CARD */
 
     .clean-energy-card{
         width:460px;
@@ -4586,9 +4732,7 @@ body {
     }
 
 
-    /* =====================================
-       RIGHT HEADING
-    ===================================== */
+    /*RIGHT HEADING*/
 
     .smart-energy-heading{
         width:500px;
@@ -4601,9 +4745,7 @@ body {
     }
 
 
-    /* =====================================
-       SMALL INFO
-    ===================================== */
+    /*SMALL INFO */
 
     .smart-energy-info{
         left:-170px;
@@ -4619,9 +4761,7 @@ body {
     }
 
 
-    /* =====================================
-       GET STARTED BUTTON
-    ===================================== */
+    /*GET STARTED BUTTON*/
 
     .get-started-btn{
         width:210px;
@@ -4648,9 +4788,7 @@ body {
     }
 
 
-    /* =====================================
-       SERVICES AREA
-    ===================================== */
+    /*SERVICES AREA*/
 
     .energy-services{
         margin-left:40px;
@@ -4687,26 +4825,18 @@ body {
 
 
 
-/* =========================================================
-   TABLET
-   992px AND BELOW
-========================================================= */
+/*TABLET 992px AND BELOW*/
 
 @media (max-width:992px){
 
-    /* =====================================
-       MAIN SECTION
-    ===================================== */
+    /*MAIN SECTION*/
 
     .smart-energy-section{
         width:calc(100% - 24px);
     }
 
 
-    /* =====================================
-       TOP AREA
-       Tablet এ একটার নিচে একটা
-    ===================================== */
+    /*TOP AREA Tablet*/
 
     .smart-energy-top{
         grid-template-columns:1fr;
@@ -4995,9 +5125,7 @@ body {
     }
 
 
-    /* =====================================
-       SERVICES
-    ===================================== */
+    /*SERVICES*/
 
     .energy-service-row{
         grid-template-columns:
@@ -5031,16 +5159,11 @@ body {
 
 
 
-/* =========================================================
-   SMALL MOBILE
-   480px AND BELOW
-========================================================= */
+/*SMALL MOBILE 480px AND BELOW */
 
 @media (max-width:480px){
 
-    /* =====================================
-       MAIN SECTION
-    ===================================== */
+    /*MAIN SECTION*/
 
     .smart-energy-section{
         width:calc(100% - 12px);
@@ -5054,9 +5177,7 @@ body {
     }
 
 
-    /* =====================================
-       LEFT CARD
-    ===================================== */
+    /*LEFT CARD*/
 
     .clean-energy-card{
         width:100%;
@@ -5106,9 +5227,7 @@ body {
     }
 
 
-    /* =====================================
-       HEADING
-    ===================================== */
+    /*HEADING*/
 
     .smart-energy-heading{
         width:100%;
@@ -5120,9 +5239,7 @@ body {
     }
 
 
-    /* =====================================
-       SMALL INFO AREA
-    ===================================== */
+    /*SMALL INFO AREA*/
 
     .smart-energy-info{
         position:relative;
@@ -5153,10 +5270,7 @@ body {
     }
 
 
-    /* =====================================
-       GET STARTED BUTTON
-       Mobile-এ info-এর নিচে থাকবে
-    ===================================== */
+    /*GET STARTED BUTTON*/
 
     .get-started-btn{
         width:180px;
@@ -5192,10 +5306,7 @@ body {
     }
 
 
-    /* =====================================
-       SERVICE ROW
-       Mobile-এ 3 item নিচে নিচে
-    ===================================== */
+    /* SERVICE ROW*/
 
     .energy-service-row{
         grid-template-columns:
@@ -5243,16 +5354,11 @@ body {
 
 
 
-/* =========================================================
-   EXTRA SMALL MOBILE
-   375px AND BELOW
-========================================================= */
+/*EXTRA SMALL MOBILE 375px AND BELOW */
 
 @media (max-width:375px){
 
-    /* =====================================
-       LEFT CARD
-    ===================================== */
+    /*LEFT CARD*/
 
     .clean-energy-card{
         height:320px;
@@ -5877,9 +5983,7 @@ body {
     }
 
 
-    /* =====================================
-       CONTENT
-    ===================================== */
+    /*CONTENT*/
 
     .trust-content{
         margin-top:55px;
@@ -5888,10 +5992,7 @@ body {
     }
 
 
-    /* =====================================
-       EACH ROW
-       Small mobile = fully stacked
-    ===================================== */
+    /*EACH ROW Small mobile*/
 
     .trust-row{
         grid-template-columns:1fr;
@@ -6259,9 +6360,7 @@ body {
     .bar-10{ height:119px; }
 
 
-    /* =====================================
-       WATERMARK
-    ===================================== */
+    /*WATERMARK*/
 
     .journey-watermark{
         font-size:250px;
@@ -6275,17 +6374,11 @@ body {
 
 
 
-/* =========================================================
-   TABLET
-   992px AND BELOW
-========================================================= */
+/*TABLET 992px AND BELOW*/
 
 @media (max-width:992px){
 
-    /* =====================================
-       MAIN SECTION
-       Content stack হবে
-    ===================================== */
+    /*MAIN SECTION*/
 
     .journey-section{
         height:auto;
@@ -6601,9 +6694,7 @@ body {
     }
 
 
-    /* =====================================
-       HEADING
-    ===================================== */
+    /*HEADING*/
 
     .journey-heading{
         font-size:31px;
@@ -6613,9 +6704,7 @@ body {
     }
 
 
-    /* =====================================
-       BUTTON
-    ===================================== */
+    /*BUTTON*/
 
     .journey-btn{
         margin-top:45px;
@@ -6638,9 +6727,7 @@ body {
     }
 
 
-    /* =====================================
-       CHART CARD
-    ===================================== */
+    /*CHART CARD*/
 
     .journey-chart-card{
         width:100%;
@@ -6655,9 +6742,7 @@ body {
     }
 
 
-    /* =====================================
-       TOP ICON
-    ===================================== */
+    /*TOP ICON*/
 
     .chart-logo{
         width:38px;
@@ -6665,9 +6750,7 @@ body {
     }
 
 
-    /* =====================================
-       CIRCLES
-    ===================================== */
+    /*CIRCLES*/
 
     .chart-circles span{
         width:43px;
@@ -6679,9 +6762,7 @@ body {
     }
 
 
-    /* =====================================
-       CHART AREA
-    ===================================== */
+    /*CHART AREA*/
 
     .chart-area{
         margin-top:38px;
@@ -6690,9 +6771,7 @@ body {
     }
 
 
-    /* =====================================
-       LABELS
-    ===================================== */
+    /*LABELS*/
 
     .chart-labels{
         width:37px;
@@ -6714,9 +6793,7 @@ body {
     }
 
 
-    /* =====================================
-       CHART BARS
-    ===================================== */
+    /*CHART BARS*/
 
     .chart-bars{
         width:auto;
@@ -6730,9 +6807,7 @@ body {
     }
 
 
-    /* =====================================
-       BAR WIDTH
-    ===================================== */
+    /*BAR WIDTH*/
 
     .bar{
         width:18px;
@@ -6741,10 +6816,7 @@ body {
     }
 
 
-    /* =====================================
-       BAR HEIGHTS
-       Desktop proportion ছোট করা হয়েছে
-    ===================================== */
+    /*BAR HEIGHTS*/
 
     .bar-1{ height:41px; }
     .bar-2{ height:77px; }
@@ -6759,9 +6831,7 @@ body {
     .bar-10{ height:93px; }
 
 
-    /* =====================================
-       WATERMARK
-    ===================================== */
+    /*WATERMARK*/
 
     .journey-watermark{
         font-size:115px;
@@ -6776,16 +6846,11 @@ body {
 
 
 
-/* =========================================================
-   EXTRA SMALL MOBILE
-   375px AND BELOW
-========================================================= */
+/*EXTRA SMALL MOBILE 375px AND BELOW*/
 
 @media (max-width:375px){
 
-    /* =====================================
-       MAIN SECTION
-    ===================================== */
+    /*MAIN SECTION*/
 
     .journey-section{
         min-height:730px;
@@ -6794,9 +6859,7 @@ body {
     }
 
 
-    /* =====================================
-       HEADING
-    ===================================== */
+    /*HEADING*/
 
     .journey-heading{
         font-size:27px;
@@ -6805,9 +6868,7 @@ body {
     }
 
 
-    /* =====================================
-       BUTTON
-    ===================================== */
+    /*BUTTON*/
 
     .journey-btn{
         margin-top:38px;
@@ -6829,9 +6890,7 @@ body {
     }
 
 
-    /* =====================================
-       CHART CARD
-    ===================================== */
+    /*CHART CARD*/
 
     .journey-chart-card{
         height:275px;
@@ -6842,9 +6901,7 @@ body {
     }
 
 
-    /* =====================================
-       TOP ELEMENTS
-    ===================================== */
+    /*TOP ELEMENTS*/
 
     .chart-logo{
         width:34px;
@@ -6860,9 +6917,7 @@ body {
     }
 
 
-    /* =====================================
-       CHART AREA
-    ===================================== */
+    /*CHART AREA*/
 
     .chart-area{
         margin-top:32px;
@@ -6871,9 +6926,7 @@ body {
     }
 
 
-    /* =====================================
-       LABELS
-    ===================================== */
+    /*LABELS*/
 
     .chart-labels{
         width:34px;
@@ -6883,9 +6936,7 @@ body {
     }
 
 
-    /* =====================================
-       BARS AREA
-    ===================================== */
+    /*BARS AREA*/
 
     .chart-bars{
         height:110px;
@@ -6896,9 +6947,7 @@ body {
     }
 
 
-    /* =====================================
-       BAR WIDTH
-    ===================================== */
+    /*BAR WIDTH*/
 
     .bar{
         width:15px;
@@ -6918,9 +6967,7 @@ body {
     .bar-10{ height:82px; }
 
 
-    /* =====================================
-       WATERMARK
-    ===================================== */
+    /*WATERMARK*/
 
     .journey-watermark{
         font-size:95px;
@@ -6930,4 +6977,987 @@ body {
         bottom:-5px;
     }
 
+}
+
+
+
+
+/* =====================================================
+   FOOTER RESPONSIVE
+   Existing desktop CSS unchanged থাকবে
+===================================================== */
+
+
+/* =====================================================
+   SMALL LAPTOP
+   1200PX AND BELOW
+===================================================== */
+
+@media (max-width:1200px){
+
+    /* Footer Container */
+    .footer-section{
+        width:calc(100% - 32px);
+        max-width:100%;
+
+        margin-top:120px;
+    }
+
+
+    /* Footer Top */
+    .footer-top{
+        gap:35px;
+    }
+
+
+    /* Left Small Heading */
+    .footer-top-left h4{
+        margin-left:40px;
+
+        font-size:21px;
+    }
+
+
+    /* Button Group */
+    .footer-buttons{
+        margin-left:40px;
+
+        gap:10px;
+    }
+
+
+    /* Remove individual 80px margin */
+    .footer-btn{
+        width:180px;
+        height:56px;
+
+        margin-left:0;
+
+        font-size:20px;
+    }
+
+
+    /* Right Large Heading */
+    .footer-heading{
+        width:420px;
+
+        font-size:48px;
+        line-height:56px;
+
+        letter-spacing:-2px;
+    }
+
+
+    /* Social Title */
+    .footer-social-title{
+        margin-top:100px;
+        margin-left:40px;
+        margin-bottom:35px;
+
+        font-size:21px;
+    }
+
+
+    /* Full Divider */
+    .footer-divider{
+        width:calc(100% - 80px);
+
+        margin-left:auto;
+        margin-right:auto;
+    }
+
+
+    /* Footer Bottom */
+    .footer-bottom{
+        grid-template-columns:220px minmax(0, 1fr);
+
+        column-gap:70px;
+    }
+
+
+    /* Social Icon */
+    .social-icons-img{
+        width:135px;
+        height:auto;
+
+        margin-left:40px;
+        margin-top:150px;
+    }
+
+
+    /* Footer Links */
+    .footer-links{
+        column-gap:45px;
+
+        margin-right:20px;
+
+        transform:none;
+    }
+
+
+    .footer-column a{
+        font-size:17px;
+    }
+
+}
+
+
+
+/* =====================================================
+   TABLET
+   992PX AND BELOW
+===================================================== */
+
+@media (max-width:992px){
+
+    /* Footer Container */
+    .footer-section{
+        width:calc(100% - 24px);
+
+        margin-top:100px;
+    }
+
+
+    /* =====================================
+       TOP AREA STACK
+    ===================================== */
+
+    .footer-top{
+        flex-direction:column;
+
+        gap:50px;
+    }
+
+
+    .footer-top-left{
+        width:100%;
+    }
+
+
+    /* Small Heading */
+    .footer-top-left h4{
+        margin-left:24px;
+
+        font-size:19px;
+    }
+
+
+    /* Buttons */
+    .footer-buttons{
+        margin-left:24px;
+
+        flex-wrap:wrap;
+    }
+
+
+    .footer-btn{
+        width:160px;
+        height:50px;
+
+        margin-left:0;
+
+        font-size:17px;
+    }
+
+
+    /* Large Heading */
+    .footer-heading{
+        width:100%;
+
+        padding:0 24px;
+
+        font-size:42px;
+        line-height:49px;
+
+        letter-spacing:-1.8px;
+
+        text-align:left;
+
+        box-sizing:border-box;
+    }
+
+
+    /* Social Title */
+    .footer-social-title{
+        margin-top:80px;
+        margin-left:24px;
+        margin-bottom:30px;
+
+        font-size:19px;
+    }
+
+
+    /* Divider */
+    .footer-divider{
+        width:calc(100% - 48px);
+
+        margin-left:auto;
+        margin-right:auto;
+    }
+
+
+    /* =====================================
+       BOTTOM AREA
+    ===================================== */
+
+    .footer-bottom{
+        grid-template-columns:160px minmax(0, 1fr);
+
+        column-gap:40px;
+    }
+
+
+    /* Social Icons */
+    .social-icons-img{
+        width:120px;
+        height:auto;
+
+        margin-left:24px;
+        margin-top:135px;
+    }
+
+
+    /* Links */
+    .footer-links{
+        column-gap:25px;
+
+        margin-right:10px;
+
+        transform:none;
+    }
+
+
+    .footer-column a{
+        font-size:15px;
+    }
+
+}
+
+
+
+/* =====================================================
+   MOBILE / SMALL TABLET
+   768PX AND BELOW
+===================================================== */
+
+@media (max-width:768px){
+
+    /* Footer */
+    .footer-section{
+        width:calc(100% - 24px);
+
+        margin-top:80px;
+    }
+
+
+    /* Top Area */
+    .footer-top{
+        gap:40px;
+    }
+
+
+    /* Left Heading */
+    .footer-top-left h4{
+        margin-left:0;
+
+        font-size:18px;
+    }
+
+
+    /* Button Group */
+    .footer-buttons{
+        width:100%;
+
+        margin-left:0;
+
+        flex-wrap:wrap;
+
+        gap:10px;
+    }
+
+
+    /* Buttons */
+    .footer-btn{
+        width:auto;
+
+        min-width:130px;
+
+        height:48px;
+
+        padding:0 20px;
+
+        margin-left:0;
+
+        font-size:16px;
+    }
+
+
+    /* Large Heading */
+    .footer-heading{
+        width:100%;
+
+        padding:0;
+
+        font-size:40px;
+        line-height:47px;
+
+        text-align:left;
+    }
+
+
+    /* Social Title */
+    .footer-social-title{
+        margin:65px 0 25px;
+
+        font-size:18px;
+    }
+
+
+    /* Divider */
+    .footer-divider{
+        width:100%;
+
+        margin-left:0;
+        margin-right:0;
+
+        margin-bottom:30px;
+    }
+
+
+    /* =====================================
+       BOTTOM BECOMES VERTICAL
+    ===================================== */
+
+    .footer-bottom{
+        display:flex;
+
+        flex-direction:column;
+
+        gap:40px;
+    }
+
+
+    /* Social Area */
+    .footer-social{
+        width:100%;
+    }
+
+
+    /* Social Image */
+    .social-icons-img{
+        width:125px;
+        height:auto;
+
+        margin:0 0 25px;
+    }
+
+
+    /* Footer Links */
+    .footer-links{
+        width:100%;
+
+        grid-template-columns:repeat(3, minmax(0, 1fr));
+
+        column-gap:25px;
+
+        margin:0;
+
+        transform:none;
+
+
+        /* 70px row height অনুযায়ী full lines */
+        background:
+            linear-gradient(#000000, #000000)
+            0 70px / 100% 1px no-repeat,
+
+            linear-gradient(#000000, #000000)
+            0 140px / 100% 1px no-repeat,
+
+            linear-gradient(#000000, #000000)
+            0 210px / 100% 1px no-repeat;
+    }
+
+
+    /* Link Row */
+    .footer-column a{
+        height:70px;
+        min-height:70px;
+
+        font-size:14px;
+    }
+
+
+    /* Arrow */
+    .footer-column a span:last-child{
+        width:9px;
+        height:9px;
+
+        margin-right:3px;
+    }
+
+
+    .footer-column a span:last-child img{
+        width:9px;
+        height:9px;
+    }
+
+}
+
+
+
+/* =====================================================
+   SMALL MOBILE
+   580PX AND BELOW
+===================================================== */
+
+@media (max-width:580px){
+
+    /* Top Area */
+    .footer-top{
+        gap:35px;
+    }
+
+
+    /* Heading */
+    .footer-heading{
+        font-size:34px;
+        line-height:40px;
+
+        letter-spacing:-1.5px;
+    }
+
+
+    /* Buttons */
+    .footer-buttons{
+        gap:8px;
+    }
+
+
+    .footer-btn{
+        min-width:110px;
+
+        height:44px;
+
+        padding:0 14px;
+
+        font-size:14px;
+    }
+
+
+    /* Social Title */
+    .footer-social-title{
+        margin-top:55px;
+
+        font-size:17px;
+    }
+
+
+    /* =====================================
+       FOOTER LINKS ONE COLUMN
+    ===================================== */
+
+    .footer-links{
+        grid-template-columns:1fr;
+
+        background:none;
+
+        row-gap:0;
+    }
+
+
+    .footer-column{
+        width:100%;
+    }
+
+
+    .footer-column a{
+        height:58px;
+        min-height:58px;
+
+        border-bottom:1px solid #000000;
+
+        font-size:15px;
+    }
+
+
+    .footer-column:not(:last-child){
+        margin-bottom:20px;
+    }
+
+}
+
+
+
+/* =====================================================
+   MOBILE
+   480PX AND BELOW
+===================================================== */
+
+@media (max-width:480px){
+
+    /* Footer */
+    .footer-section{
+        width:calc(100% - 20px);
+
+        margin-top:70px;
+    }
+
+
+    /* Top Left */
+    .footer-top-left{
+        gap:25px;
+    }
+
+
+    /* Small Heading */
+    .footer-top-left h4{
+        font-size:16px;
+    }
+
+
+    /* =====================================
+       BUTTONS FULL WIDTH
+    ===================================== */
+
+    .footer-buttons{
+        flex-direction:column;
+
+        align-items:stretch;
+    }
+
+
+    .footer-btn{
+        width:100%;
+
+        min-width:0;
+
+        height:46px;
+
+        padding:0;
+
+        font-size:15px;
+    }
+
+
+    /* Large Heading */
+    .footer-heading{
+        font-size:30px;
+        line-height:36px;
+
+        letter-spacing:-1.3px;
+    }
+
+
+    /* Social Title */
+    .footer-social-title{
+        margin-top:50px;
+
+        font-size:16px;
+    }
+
+
+    /* Divider */
+    .footer-divider{
+        margin-bottom:20px;
+    }
+
+
+    /* Footer Links */
+    .footer-column a{
+        height:54px;
+        min-height:54px;
+
+        font-size:14px;
+    }
+
+
+    /* Social Icons */
+    .social-icons-img{
+        width:115px;
+    }
+
+}
+
+
+
+/* =====================================================
+   EXTRA SMALL MOBILE
+   375PX AND BELOW
+===================================================== */
+
+@media (max-width:375px){
+
+    /* Footer */
+    .footer-section{
+        width:calc(100% - 16px);
+
+        margin-top:60px;
+    }
+
+
+    /* Small Heading */
+    .footer-top-left h4{
+        font-size:15px;
+    }
+
+
+    /* Large Heading */
+    .footer-heading{
+        font-size:27px;
+        line-height:33px;
+
+        letter-spacing:-1px;
+    }
+
+
+    /* Button */
+    .footer-btn{
+        height:43px;
+
+        font-size:14px;
+    }
+
+
+    /* Social Title */
+    .footer-social-title{
+        margin-top:45px;
+
+        font-size:15px;
+    }
+
+
+    /* Footer Link */
+    .footer-column a{
+        height:50px;
+        min-height:50px;
+
+        font-size:13px;
+    }
+
+
+    /* Social Icons */
+    .social-icons-img{
+        width:105px;
+    }
+
+}
+
+
+
+
+/*EFFICIENCY CARD RESPONSIVE */
+
+
+/*SMALL LAPTOP 1200px AND BELOW*/
+
+@media (max-width:1200px){
+
+    .efficiency-card{
+        width:270px;
+        height:318px;
+
+        padding:26px 28px;
+    }
+
+
+    .efficiency-top h3{
+        font-size:42px;
+    }
+
+
+    .efficiency-top p{
+        font-size:19px;
+
+        margin-top:10px;
+    }
+
+
+    .efficiency-plus{
+        width:34px;
+        height:34px;
+
+        font-size:23px;
+    }
+
+
+    .efficiency-chart{
+        left:36px;
+        bottom:29px;
+
+        gap:5px;
+    }
+
+
+    .dot-column{
+        gap:5px;
+    }
+
+
+    .dot{
+        width:14px;
+        height:14px;
+    }
+
+
+    .dot-label{
+        font-size:15px;
+
+        bottom:calc(100% + 11px);
+    }
+}
+
+
+
+/* =====================================================
+   TABLET
+   992px AND BELOW
+===================================================== */
+
+@media (max-width:992px){
+
+    .efficiency-card{
+        width:260px;
+        height:305px;
+
+        padding:25px 26px;
+    }
+
+
+    .efficiency-top h3{
+        font-size:40px;
+    }
+
+
+    .efficiency-top p{
+        font-size:18px;
+    }
+
+
+    .efficiency-plus{
+        width:32px;
+        height:32px;
+
+        font-size:22px;
+    }
+
+
+    .efficiency-chart{
+        left:32px;
+        bottom:27px;
+
+        gap:5px;
+    }
+
+
+    .dot-column{
+        gap:5px;
+    }
+
+
+    .dot{
+        width:13px;
+        height:13px;
+    }
+
+
+    .dot-label{
+        font-size:14px;
+
+        bottom:calc(100% + 10px);
+    }
+}
+
+
+
+/* =====================================================
+   MOBILE
+   768px AND BELOW
+===================================================== */
+
+@media (max-width:768px){
+
+    .efficiency-card{
+        width:250px;
+        height:295px;
+
+        padding:23px 24px;
+
+        border-radius:18px;
+    }
+
+
+    .efficiency-top h3{
+        font-size:38px;
+    }
+
+
+    .efficiency-top p{
+        margin-top:9px;
+
+        font-size:17px;
+    }
+
+
+    .efficiency-plus{
+        width:31px;
+        height:31px;
+
+        font-size:21px;
+    }
+
+
+    .efficiency-chart{
+        left:29px;
+        bottom:26px;
+
+        gap:4px;
+    }
+
+
+    .dot-column{
+        gap:5px;
+    }
+
+
+    .dot{
+        width:13px;
+        height:13px;
+    }
+
+
+    .dot-label{
+        font-size:14px;
+
+        bottom:calc(100% + 9px);
+    }
+}
+
+
+
+/* =====================================================
+   SMALL MOBILE
+   480px AND BELOW
+===================================================== */
+
+@media (max-width:480px){
+
+    .efficiency-card{
+        width:230px;
+        height:275px;
+
+        padding:21px 22px;
+
+        border-radius:17px;
+    }
+
+
+    .efficiency-top h3{
+        font-size:35px;
+    }
+
+
+    .efficiency-top p{
+        margin-top:8px;
+
+        font-size:16px;
+    }
+
+
+    .efficiency-plus{
+        width:29px;
+        height:29px;
+
+        font-size:20px;
+    }
+
+
+    .efficiency-chart{
+        left:26px;
+        bottom:24px;
+
+        gap:4px;
+    }
+
+
+    .dot-column{
+        gap:4px;
+    }
+
+
+    .dot{
+        width:12px;
+        height:12px;
+    }
+
+
+    .dot-label{
+        font-size:13px;
+
+        bottom:calc(100% + 8px);
+    }
+}
+
+
+
+/* =====================================================
+   EXTRA SMALL MOBILE
+   375px AND BELOW
+===================================================== */
+
+@media (max-width:375px){
+
+    .efficiency-card{
+        width:210px;
+        height:255px;
+
+        padding:19px 20px;
+
+        border-radius:16px;
+    }
+
+
+    .efficiency-top h3{
+        font-size:32px;
+    }
+
+
+    .efficiency-top p{
+        margin-top:7px;
+
+        font-size:15px;
+    }
+
+
+    .efficiency-plus{
+        width:27px;
+        height:27px;
+
+        font-size:18px;
+    }
+
+
+    .efficiency-chart{
+        left:23px;
+        bottom:22px;
+
+        gap:3px;
+    }
+
+
+    .dot-column{
+        gap:4px;
+    }
+
+
+    .dot{
+        width:11px;
+        height:11px;
+    }
+
+
+    .dot-label{
+        font-size:12px;
+
+        bottom:calc(100% + 7px);
+    }
 }
