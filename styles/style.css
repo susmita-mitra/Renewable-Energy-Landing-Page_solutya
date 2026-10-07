@@ -418,8 +418,14 @@ body {
 
     width: calc(626 / 1388 * 100%);
     height: calc(819 / 886 * 100%);
+    background-image: url("../assets/header/solar.png");
 
-    background: #D9D9D9;
+    
+    background-size:cover;
+    background-repeat:no-repeat;
+
+    /* Important */
+    background-position:center bottom;
 
     z-index: 1;
 
@@ -580,7 +586,7 @@ body {
 
     padding: 20px;
 
-    background: #EAEAEA;
+    background:transparent;
 
     border-radius: 25px;
 }
@@ -606,6 +612,7 @@ body {
     border-radius:20px;
 
     color:#ffffff;
+
 }
 
 
@@ -679,6 +686,7 @@ body {
     align-items:flex-end;
 
     gap:6px;
+    
 }
 
 
@@ -820,16 +828,19 @@ body {
     min-height: 368px;
     height: 368px;
 
-    background: #D9D9D9;
+    background-image: url("../assets/header/pexels-quang-nguyen-vinh-222549-35105460.jpg");
+
+        background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    
 
     border-radius: 20px;
 }
 
 
 
-/* =====================================================
-   RIGHT INFORMATION AREA
-===================================================== */
+/*RIGHT INFORMATION AREA*/
 
 .future-info {
     position: relative;
@@ -844,9 +855,7 @@ body {
 
 
 
-/* =====================================
-   ROUND ARROW BUTTON
-===================================== */
+/*ROUND ARROW BUTTON*/
 
 .round-arrow-btn {
     position: absolute;
@@ -869,9 +878,7 @@ body {
 }
 
 
-/* =====================================
-   ROUND ARROW ICON IMAGE
-===================================== */
+/*ROUND ARROW ICON IMAGE*/
 
 .round-arrow-icon {
     width: 32px;
@@ -882,9 +889,7 @@ body {
 
 
 
-/* =====================================================
-   NATIONAL EXPANSION
-===================================================== */
+/* NATIONAL EXPANSION*/
 
 .national-expansion {
     position: absolute;
@@ -919,9 +924,7 @@ body {
 
 
 
-/* =====================================
-   FUTURE SECTION BOTTOM AREA
-===================================== */
+/*FUTURE SECTION BOTTOM AREA */
 
 .future-bottom {
     display: grid;
@@ -942,9 +945,7 @@ body {
 
 
 
-/* =====================================
-   BOTTOM LEFT HEADING
-===================================== */
+/*BOTTOM LEFT HEADING*/
 
 .future-bottom-title {
     font-family: "Archivo", sans-serif;
@@ -958,9 +959,7 @@ body {
 
 
 
-/* =====================================
-   BOTTOM RIGHT TEXT
-===================================== */
+/* BOTTOM RIGHT TEXT */
 
 .future-bottom-content p {
     font-size: 16px;
@@ -978,9 +977,7 @@ body {
 
 
 
-/* =====================================
-   BOTTOM ARROW LINE
-===================================== */
+/*BOTTOM ARROW LINE*/
 
 .arrow-line {
     position: relative;
@@ -997,9 +994,7 @@ body {
 
 
 
-/* =====================================
-   SOLID ARROW HEAD
-===================================== */
+/*SOLID ARROW HEAD*/
 
 .arrow-line::after {
     content: "";
@@ -1025,10 +1020,6 @@ body {
 
 /* our-long term section*/
 
-
-/* =====================================================
-   OUR LONG-TERM COMMITMENT SECTION
-===================================================== */
 
 
 .commitment-section {
@@ -1065,9 +1056,7 @@ body {
 
 
 
-/* =====================================================
-   TOP RIGHT ARROW
-===================================================== */
+/*TOP RIGHT ARROW*/
 
 .commitment-arrow {
     position: absolute;
@@ -1079,9 +1068,7 @@ body {
 
 
 
-/* =====================================================
-   COMMITMENT CONTENT GRID
-===================================================== */
+/*COMMITMENT CONTENT GRID*/
 
 .commitment-grid {
     display: grid;
@@ -1098,9 +1085,7 @@ body {
 
 
 
-/* =====================================================
-   NORMAL COMMITMENT ITEM
-===================================================== */
+/*NORMAL COMMITMENT ITEM*/
 
 .commitment-item {
     position: relative;
@@ -1137,9 +1122,7 @@ body {
 
 
 
-/* =====================================================
-   SUSTAINABLE DESIGN DARK CARD
-===================================================== */
+/*SUSTAINABLE DESIGN DARK CARD*/
 
 .sustainable-card {
     display: flex;
@@ -1159,9 +1142,7 @@ body {
 }
 
 
-/* =====================================
-   SUSTAINABLE DESIGN CARD
-===================================== */
+/*SUSTAINABLE DESIGN CARD*/
 
 .sustainable-card {
     display: flex;
@@ -1179,9 +1160,7 @@ body {
 }
 
 
-/* =====================================
-   SUSTAINABLE ICON
-===================================== */
+/*SUSTAINABLE ICON*/
 
 .sustainable-icon {
     width: 88px;
@@ -1193,9 +1172,7 @@ body {
 }
 
 
-/* =====================================
-   SUSTAINABLE TEXT CONTENT
-===================================== */
+/*SUSTAINABLE TEXT CONTENT*/
 
 .sustainable-content {
     flex: 1;
@@ -1219,9 +1196,7 @@ body {
 
 
 
-/* =====================================
-   COMMITMENT ITEM WITH VERTICAL LINE
-===================================== */
+/*COMMITMENT ITEM WITH VERTICAL LINE*/
 
 .line-item {
     position: relative;
@@ -1229,9 +1204,7 @@ body {
 }
 
 
-/* =====================================
-   VERTICAL DIVIDER LINE
-===================================== */
+/*VERTICAL DIVIDER LINE*/
 
 .line-item::before {
     content: "";
@@ -1252,9 +1225,7 @@ body {
 
 
 
-/* =====================================================
-   SMART RENEWABLE ENERGY SECTION
-===================================================== */
+/*SMART RENEWABLE ENERGY SECTION*/
 
 .smart-energy-section{
     width:1388px;
@@ -1286,6 +1257,7 @@ body {
     width: 541px;
 
     height: 460px;
+        margin-left:0;
 
     background: linear-gradient(to bottom left,
             rgba(5, 41, 48, 1),
@@ -1294,22 +1266,20 @@ body {
 
     border-radius: 20px;
 
-    margin-left: 80px;
 
     overflow: hidden;
 }
 
 
 
-/* =====================================================
-   CLEAN ENERGY TITLE
-===================================================== */
+/*CLEAN ENERGY TITLE*/
 
 .clean-energy-card h3 {
     position: absolute;
 
     left: 114px;
     top: 50px;
+    margin-right: 80px;
 
     font-family: "Archivo", sans-serif;
     font-size: 48.97px;
@@ -1331,14 +1301,16 @@ body {
     width:380px;
     height: 415px;
 
-    background: #D9D9D9;
+        background-image:url("../assets/header/chelsea-WvusC5M-TM8-unsplash.jpg");
+
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
 }
 
 
 
-/* =====================================================
-   PLUS BUTTON
-===================================================== */
+/*PLUS BUTTON*/
 
 .clean-plus-btn {
     position: absolute;
@@ -1363,9 +1335,7 @@ body {
 
 
 
-/* =====================================
-   CLEAN ENERGY CARD
-===================================== */
+/*CLEAN ENERGY CARD*/
 
 .clean-energy-card{
     position:relative;
@@ -1373,9 +1343,7 @@ body {
 }
 
 
-/* =====================================
-   VERTICAL DIVIDER LINE
-===================================== */
+/*VERTICAL DIVIDER LINE*/
 
 .clean-energy-card::before{
     content:"";
@@ -1396,9 +1364,7 @@ body {
 }
 
 
-/* =====================================
-   HORIZONTAL DIVIDER LINE
-===================================== */
+/*HORIZONTAL DIVIDER LINE*/
 
 .clean-energy-card::after{
     content:"";
@@ -1418,9 +1384,7 @@ body {
 }
 
 
-/* =====================================================
-   RIGHT CONTENT
-===================================================== */
+/*RIGHT CONTENT*/
 
 .smart-energy-content {
     position: relative;
@@ -1428,9 +1392,7 @@ body {
 
 
 
-/* =====================================================
-   MAIN HEADING
-===================================================== */
+/*MAIN HEADING*/
 
 .smart-energy-heading {
     font-family: "Archivo", sans-serif;
@@ -1456,9 +1418,7 @@ body {
     text-align: right;
 }
 
-/* =====================================
-   SMALL INFO AREA POSITION
-===================================== */
+/*SMALL INFO AREA POSITION*/
 
 .smart-energy-info{
     position:absolute;
@@ -1475,9 +1435,7 @@ body {
 }
 
 
-/* =====================================
-   ARROW
-===================================== */
+/*ARROW*/
 
 .smart-energy-arrow{
     width:40px;
@@ -1490,9 +1448,7 @@ body {
 }
 
 
-/* =====================================
-   DESCRIPTION
-===================================== */
+/*DESCRIPTION*/
 
 .smart-energy-description{
     width:232px;
@@ -1512,9 +1468,7 @@ body {
 }
 
 
-/* =====================================================
-   GET STARTED BUTTON
-===================================================== */
+/*GET STARTED BUTTON*/
 
 .get-started-btn {
     display: flex;
@@ -1532,7 +1486,7 @@ body {
 
     cursor: pointer;
 
-    margin: 199px 8px 100px 185px;
+    margin: 199px 80px 100px 185px;
 
 }
 
@@ -1561,22 +1515,18 @@ body {
 
 
 
-/* =====================================================
-   BOTTOM SERVICES
-===================================================== */
+/*BOTTOM SERVICES*/
 
 .energy-services {
     margin-top: 80px;
-    margin-left: 80px;
-    margin-left: 80px;
+    margin-left: 0;
+
     font-family:"Inter", sans-serif;
 }
 
 
 
-/* =====================================================
-   EACH SERVICE ROW
-===================================================== */
+/*EACH SERVICE ROW*/
 
 .energy-service-row {
     display: grid;
@@ -1592,9 +1542,7 @@ body {
 
 
 
-/* =====================================================
-   SERVICE TITLE
-===================================================== */
+/*SERVICE TITLE*/
 
 .energy-service-row h4 {
     font-family:"Inter", sans-serif;
@@ -1607,15 +1555,18 @@ body {
 
 
 
-/* =====================================================
-   GREY PILL
-===================================================== */
+/*GREY PILL*/
 
 .service-pill {
     width: 318px;
     height: 69px;
 
-    background: #D9D9D9;
+    background:linear-gradient(
+        to right,
+        #A9C97A 0%,
+        #DDE7A6 50%,
+        #A9C97A 100%
+    );
     margin-left: -260px;
 
     border-radius: 50px;
@@ -1623,9 +1574,7 @@ body {
 
 
 
-/* =====================================================
-   SERVICE NUMBER
-===================================================== */
+/*SERVICE NUMBER*/
 
 .service-number {
     font-family: "Archivo", sans-serif;
@@ -1641,9 +1590,7 @@ body {
 
 
 
-/* =====================================================
-   WHY BUSINESSES TRUST SECTION
-===================================================== */
+/*WHY BUSINESSES TRUST SECTION*/
 
 .trust-section{
     width:1388px;
@@ -1657,9 +1604,7 @@ body {
 
 
 
-/* =====================================================
-   SECTION HEADING
-===================================================== */
+/*SECTION HEADING*/
 
 .trust-heading{
     display:flex;
@@ -1696,9 +1641,7 @@ body {
 
 
 
-/* =====================================================
-   ALL TRUST ROWS WRAPPER
-===================================================== */
+/*ALL TRUST ROWS WRAPPER*/
 
 .trust-content{
     margin-top:120px;
@@ -1711,9 +1654,7 @@ body {
 
 
 
-/* =====================================================
-   EACH ROW
-===================================================== */
+/*EACH ROW*/
 
 .trust-row{
     display:grid;
@@ -1726,9 +1667,7 @@ body {
 
 
 
-/* =====================================================
-   LEFT STATISTIC AREA
-===================================================== */
+/*LEFT STATISTIC AREA*/
 
 .trust-stat{
     position:relative;
@@ -1741,9 +1680,7 @@ body {
 
 
 
-/* =====================================
-   STATISTIC NUMBER + PLAY ICON
-===================================== */
+/* STATISTIC NUMBER + PLAY ICON*/
 
 .trust-stat-top{
     display:flex;
@@ -1754,9 +1691,7 @@ body {
 
 
 
-/* =====================================
-   STATISTIC NUMBER
-===================================== */
+/*STATISTIC NUMBER*/
 
 .trust-stat h3{
     margin:0;
@@ -1775,9 +1710,7 @@ body {
 
 
 
-/* =====================================================
-   SMALL GREEN PLAY BUTTON
-===================================================== */
+/*SMALL GREEN PLAY BUTTON*/
 
 .trust-play{
     position:relative;
@@ -1832,21 +1765,41 @@ body {
 
 
 
-/*MIDDLE GREY IMAGE BOX*/
+/* ===============================
+   TRUST SECTION IMAGES
+================================ */
 
 .trust-image-box{
-
-
     width:311px;
-
     height:244px;
 
-    background:#D9D9D9;
-
     border-radius:10px;
+
+    background-color:#D9D9D9;
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+
+    overflow:hidden;
 }
 
 
+/* First Image */
+.trust-image-1{
+    background-image:url("../assets/header/markus-spiske-rNn_TU8dvoY-unsplash.jpg");
+}
+
+
+/* Second Image */
+.trust-image-2{
+    background-image:url("../assets/header/moritz-lange-jIpTrVUVy90-unsplash.jpg");
+}
+
+
+/* Third Image */
+.trust-image-3{
+    background-image:url("../assets/header/pexels-elite-power-group-661996115-33438126.jpg");
+}
 
 /*RIGHT TEXT CONTENT*/
 
@@ -2313,16 +2266,18 @@ body {
 /*FOOTER SECTION */
 
 .footer-section{
-    width:1388px;
-    max-width:calc(100% - 48px);
-    margin-left:auto;
-    margin-right:auto;
-    margin-top: 156px;
+    width:100%;
+    max-width:1440px;
 
+    margin:156px auto 0;
+
+    padding-left:80px;
+    padding-right:80px;
+
+    box-sizing:border-box;
 
     background:#ffffff;
 }
-
 
 
 /*FOOTER TOP AREA*/
@@ -2358,7 +2313,7 @@ body {
 
     line-height:100%;
     letter-spacing: -1px;
-    margin-left: 80px;
+
 
     color:#000000;
 }
@@ -2371,6 +2326,7 @@ body {
     display:flex;
     align-items:center;
     gap:10px;
+    margin-left: 0;
 }
 
 
@@ -2384,17 +2340,19 @@ body {
     display:flex;
     justify-content:center;
     align-items:center;
+
     border-radius:66px;
     background:#EAEAEA;
+
     font-family:"Archivo", sans-serif;
     font-size:24px;
-    letter-spacing: -1px;
-    margin-left: 80px;
-
     font-weight:400;
+    letter-spacing:-1px;
 
     color:#000000;
     text-decoration:none;
+
+    margin-left:0;
 }
 
 
@@ -2455,14 +2413,10 @@ body {
 /*FOOTER HORIZONTAL DIVIDER*/
 
 .footer-divider{
-    width:1280px;
-
+    width:100%;
     height:1px;
 
-
-    margin-bottom:32px;
-    margin-left: 80px;
-    margin-right: 80px;
+    margin:0 0 32px;
 
     background:#000000;
 }
@@ -2503,36 +2457,60 @@ body {
 
     margin-top:119px;
     margin-bottom:41px;
-    margin-left:80px;
+
 }
 
+/* ===============================
+   SOCIAL MEDIA ICONS
+================================ */
 
-/* SOCIAL MEDIA IMAGE */
+.social-icons{
+    display:flex;
+    align-items:center;
 
-.social-icons-img{
-    width:146.62px;
-    height:38.55px;
+    gap:15px;
 
     margin-top:187px;
-    margin-left:80px;
-    margin-bottom:80.45px;
+}
+
+.social-icons a{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    text-decoration:none;
+}
+
+.social-icons img{
+    width:38px;
+    height:38px;
 
     display:block;
     object-fit:contain;
+
+    transition:0.3s ease;
 }
 
 
-/* =========================================
-   FOOTER LINKS AREA
-========================================= */
+/* Hover Effect */
+.social-icons a:hover img{
+    transform:scale(1.1);
+}
+
+
+/*FOOTER LINKS AREA*/
 
 .footer-links{
     display:grid;
+
     grid-template-columns:repeat(3, 1fr);
+
     column-gap:100px;
-    margin-right: 30px;
-    margin-top: -30px;
-    transform:translateX(-40px);
+
+    margin-right:0;
+    margin-top:-30px;
+
+    transform:none;
 
     position:relative;
 
@@ -2598,9 +2576,7 @@ body {
 }
 
 
-/* =========================================
-   HOVER EFFECT
-========================================= */
+/*HOVER EFFECT*/
 
 .footer-column a{
     transition:0.3s ease;
@@ -4741,7 +4717,6 @@ body {
         font-size:52px;
         line-height:62px;
 
-        margin-left:-80px;
     }
 
 
@@ -4769,7 +4744,7 @@ body {
 
         margin:
             165px
-            8px
+            80px
             90px
             120px;
     }
@@ -6660,9 +6635,7 @@ body {
     .bar-10{ height:115px; }
 
 
-    /* =====================================
-       WATERMARK
-    ===================================== */
+    /*WATERMARK*/
 
     .journey-watermark{
         font-size:170px;
@@ -6984,49 +6957,42 @@ body {
 
 /* =====================================================
    FOOTER RESPONSIVE
-   Existing desktop CSS unchanged থাকবে
 ===================================================== */
 
 
 /* =====================================================
-   SMALL LAPTOP
    1200PX AND BELOW
 ===================================================== */
 
 @media (max-width:1200px){
 
-    /* Footer Container */
     .footer-section{
-        width:calc(100% - 32px);
         max-width:100%;
 
         margin-top:120px;
+
+        padding-left:40px;
+        padding-right:40px;
     }
 
 
-    /* Footer Top */
     .footer-top{
         gap:35px;
     }
 
 
-    /* Left Small Heading */
     .footer-top-left h4{
-        margin-left:40px;
+        margin-left:0;
 
         font-size:21px;
     }
 
 
-    /* Button Group */
     .footer-buttons{
-        margin-left:40px;
-
-        gap:10px;
+        margin-left:0;
     }
 
 
-    /* Remove individual 80px margin */
     .footer-btn{
         width:180px;
         height:56px;
@@ -7037,37 +7003,29 @@ body {
     }
 
 
-    /* Right Large Heading */
     .footer-heading{
         width:420px;
 
         font-size:48px;
         line-height:56px;
-
-        letter-spacing:-2px;
     }
 
 
-    /* Social Title */
     .footer-social-title{
-        margin-top:100px;
-        margin-left:40px;
-        margin-bottom:35px;
+        margin-left:0;
 
         font-size:21px;
     }
 
 
-    /* Full Divider */
     .footer-divider{
-        width:calc(100% - 80px);
+        width:100%;
 
-        margin-left:auto;
-        margin-right:auto;
+        margin-left:0;
+        margin-right:0;
     }
 
 
-    /* Footer Bottom */
     .footer-bottom{
         grid-template-columns:220px minmax(0, 1fr);
 
@@ -7075,21 +7033,20 @@ body {
     }
 
 
-    /* Social Icon */
     .social-icons-img{
         width:135px;
         height:auto;
 
-        margin-left:40px;
+        margin-left:0;
+
         margin-top:150px;
     }
 
 
-    /* Footer Links */
     .footer-links{
         column-gap:45px;
 
-        margin-right:20px;
+        margin-right:0;
 
         transform:none;
     }
@@ -7103,24 +7060,17 @@ body {
 
 
 
-/* =====================================================
-   TABLET
-   992PX AND BELOW
-===================================================== */
+/*992PX AND BELOW*/
 
 @media (max-width:992px){
 
-    /* Footer Container */
     .footer-section{
-        width:calc(100% - 24px);
-
         margin-top:100px;
+
+        padding-left:24px;
+        padding-right:24px;
     }
 
-
-    /* =====================================
-       TOP AREA STACK
-    ===================================== */
 
     .footer-top{
         flex-direction:column;
@@ -7134,17 +7084,17 @@ body {
     }
 
 
-    /* Small Heading */
     .footer-top-left h4{
-        margin-left:24px;
+        margin-left:0;
 
         font-size:19px;
     }
 
 
-    /* Buttons */
     .footer-buttons{
-        margin-left:24px;
+        width:100%;
+
+        margin-left:0;
 
         flex-wrap:wrap;
     }
@@ -7160,11 +7110,8 @@ body {
     }
 
 
-    /* Large Heading */
     .footer-heading{
         width:100%;
-
-        padding:0 24px;
 
         font-size:42px;
         line-height:49px;
@@ -7172,33 +7119,24 @@ body {
         letter-spacing:-1.8px;
 
         text-align:left;
-
-        box-sizing:border-box;
     }
 
 
-    /* Social Title */
     .footer-social-title{
         margin-top:80px;
-        margin-left:24px;
-        margin-bottom:30px;
+        margin-left:0;
 
         font-size:19px;
     }
 
 
-    /* Divider */
     .footer-divider{
-        width:calc(100% - 48px);
+        width:100%;
 
-        margin-left:auto;
-        margin-right:auto;
+        margin-left:0;
+        margin-right:0;
     }
 
-
-    /* =====================================
-       BOTTOM AREA
-    ===================================== */
 
     .footer-bottom{
         grid-template-columns:160px minmax(0, 1fr);
@@ -7207,21 +7145,20 @@ body {
     }
 
 
-    /* Social Icons */
     .social-icons-img{
         width:120px;
         height:auto;
 
-        margin-left:24px;
+        margin-left:0;
+
         margin-top:135px;
     }
 
 
-    /* Links */
     .footer-links{
         column-gap:25px;
 
-        margin-right:10px;
+        margin-right:0;
 
         transform:none;
     }
@@ -7236,39 +7173,31 @@ body {
 
 
 /* =====================================================
-   MOBILE / SMALL TABLET
    768PX AND BELOW
 ===================================================== */
 
 @media (max-width:768px){
 
-    /* Footer */
     .footer-section{
-        width:calc(100% - 24px);
-
         margin-top:80px;
+
+        padding-left:20px;
+        padding-right:20px;
     }
 
 
-    /* Top Area */
     .footer-top{
         gap:40px;
     }
 
 
-    /* Left Heading */
     .footer-top-left h4{
-        margin-left:0;
-
         font-size:18px;
     }
 
 
-    /* Button Group */
     .footer-buttons{
         width:100%;
-
-        margin-left:0;
 
         flex-wrap:wrap;
 
@@ -7276,7 +7205,6 @@ body {
     }
 
 
-    /* Buttons */
     .footer-btn{
         width:auto;
 
@@ -7286,17 +7214,12 @@ body {
 
         padding:0 20px;
 
-        margin-left:0;
-
         font-size:16px;
     }
 
 
-    /* Large Heading */
     .footer-heading{
         width:100%;
-
-        padding:0;
 
         font-size:40px;
         line-height:47px;
@@ -7305,7 +7228,6 @@ body {
     }
 
 
-    /* Social Title */
     .footer-social-title{
         margin:65px 0 25px;
 
@@ -7313,20 +7235,12 @@ body {
     }
 
 
-    /* Divider */
     .footer-divider{
         width:100%;
-
-        margin-left:0;
-        margin-right:0;
 
         margin-bottom:30px;
     }
 
-
-    /* =====================================
-       BOTTOM BECOMES VERTICAL
-    ===================================== */
 
     .footer-bottom{
         display:flex;
@@ -7337,13 +7251,11 @@ body {
     }
 
 
-    /* Social Area */
     .footer-social{
         width:100%;
     }
 
 
-    /* Social Image */
     .social-icons-img{
         width:125px;
         height:auto;
@@ -7352,7 +7264,6 @@ body {
     }
 
 
-    /* Footer Links */
     .footer-links{
         width:100%;
 
@@ -7364,8 +7275,6 @@ body {
 
         transform:none;
 
-
-        /* 70px row height অনুযায়ী full lines */
         background:
             linear-gradient(#000000, #000000)
             0 70px / 100% 1px no-repeat,
@@ -7378,7 +7287,6 @@ body {
     }
 
 
-    /* Link Row */
     .footer-column a{
         height:70px;
         min-height:70px;
@@ -7386,39 +7294,27 @@ body {
         font-size:14px;
     }
 
-
-    /* Arrow */
-    .footer-column a span:last-child{
-        width:9px;
-        height:9px;
-
-        margin-right:3px;
-    }
-
-
-    .footer-column a span:last-child img{
-        width:9px;
-        height:9px;
-    }
-
 }
 
 
 
 /* =====================================================
-   SMALL MOBILE
    580PX AND BELOW
 ===================================================== */
 
 @media (max-width:580px){
 
-    /* Top Area */
+    .footer-section{
+        padding-left:16px;
+        padding-right:16px;
+    }
+
+
     .footer-top{
         gap:35px;
     }
 
 
-    /* Heading */
     .footer-heading{
         font-size:34px;
         line-height:40px;
@@ -7427,7 +7323,6 @@ body {
     }
 
 
-    /* Buttons */
     .footer-buttons{
         gap:8px;
     }
@@ -7444,17 +7339,12 @@ body {
     }
 
 
-    /* Social Title */
     .footer-social-title{
         margin-top:55px;
 
         font-size:17px;
     }
 
-
-    /* =====================================
-       FOOTER LINKS ONE COLUMN
-    ===================================== */
 
     .footer-links{
         grid-template-columns:1fr;
@@ -7489,35 +7379,28 @@ body {
 
 
 /* =====================================================
-   MOBILE
    480PX AND BELOW
 ===================================================== */
 
 @media (max-width:480px){
 
-    /* Footer */
     .footer-section{
-        width:calc(100% - 20px);
-
         margin-top:70px;
+
+        padding-left:14px;
+        padding-right:14px;
     }
 
 
-    /* Top Left */
     .footer-top-left{
         gap:25px;
     }
 
 
-    /* Small Heading */
     .footer-top-left h4{
         font-size:16px;
     }
 
-
-    /* =====================================
-       BUTTONS FULL WIDTH
-    ===================================== */
 
     .footer-buttons{
         flex-direction:column;
@@ -7539,7 +7422,6 @@ body {
     }
 
 
-    /* Large Heading */
     .footer-heading{
         font-size:30px;
         line-height:36px;
@@ -7548,7 +7430,6 @@ body {
     }
 
 
-    /* Social Title */
     .footer-social-title{
         margin-top:50px;
 
@@ -7556,13 +7437,11 @@ body {
     }
 
 
-    /* Divider */
     .footer-divider{
         margin-bottom:20px;
     }
 
 
-    /* Footer Links */
     .footer-column a{
         height:54px;
         min-height:54px;
@@ -7571,7 +7450,6 @@ body {
     }
 
 
-    /* Social Icons */
     .social-icons-img{
         width:115px;
     }
@@ -7581,27 +7459,24 @@ body {
 
 
 /* =====================================================
-   EXTRA SMALL MOBILE
    375PX AND BELOW
 ===================================================== */
 
 @media (max-width:375px){
 
-    /* Footer */
     .footer-section{
-        width:calc(100% - 16px);
-
         margin-top:60px;
+
+        padding-left:12px;
+        padding-right:12px;
     }
 
 
-    /* Small Heading */
     .footer-top-left h4{
         font-size:15px;
     }
 
 
-    /* Large Heading */
     .footer-heading{
         font-size:27px;
         line-height:33px;
@@ -7610,7 +7485,6 @@ body {
     }
 
 
-    /* Button */
     .footer-btn{
         height:43px;
 
@@ -7618,7 +7492,6 @@ body {
     }
 
 
-    /* Social Title */
     .footer-social-title{
         margin-top:45px;
 
@@ -7626,7 +7499,6 @@ body {
     }
 
 
-    /* Footer Link */
     .footer-column a{
         height:50px;
         min-height:50px;
@@ -7635,14 +7507,11 @@ body {
     }
 
 
-    /* Social Icons */
     .social-icons-img{
         width:105px;
     }
 
 }
-
-
 
 
 /*EFFICIENCY CARD RESPONSIVE */
@@ -7960,4 +7829,467 @@ body {
 
         bottom:calc(100% + 7px);
     }
+}
+
+
+/* =====================================================
+   NAVBAR RESPONSIVE FINAL FIX
+   Desktop + Tablet = Normal Navigation
+   Small Mobile = Dropdown Menu
+===================================================== */
+
+
+/* =====================================================
+   MOBILE MENU DEFAULT HIDDEN
+===================================================== */
+
+.mobile-menu{
+    display:none;
+}
+
+
+
+/* =====================================================
+   SMALL LAPTOP
+   1200PX AND BELOW
+   NAVIGATION এখনও NORMAL থাকবে
+===================================================== */
+
+@media (max-width:1200px){
+
+    .navbar{
+        position:relative;
+    }
+
+
+    /* Desktop Navigation */
+    .nav-menu{
+        display:flex !important;
+
+        align-items:center;
+        justify-content:center;
+
+        gap:22px;
+
+        white-space:nowrap;
+    }
+
+
+    .nav-menu a{
+        font-size:14px;
+
+        white-space:nowrap;
+    }
+
+
+    /* Mobile dropdown hidden */
+    .mobile-menu{
+        display:none !important;
+    }
+
+}
+
+
+
+/* =====================================================
+   TABLET
+   992PX AND BELOW
+   iPad Air 820px-এও NORMAL NAV থাকবে
+===================================================== */
+
+@media (max-width:992px){
+
+    .nav-menu{
+        display:flex !important;
+
+        align-items:center;
+        justify-content:center;
+
+        gap:14px;
+
+        white-space:nowrap;
+    }
+
+
+    .nav-menu a{
+        font-size:12px;
+
+        white-space:nowrap;
+    }
+
+
+    /* Dropdown এখনও hidden */
+    .mobile-menu{
+        display:none !important;
+    }
+
+}
+
+
+
+/* =====================================================
+   SMALL TABLET
+   768PX AND BELOW
+   এখনও NORMAL NAVIGATION থাকবে
+===================================================== */
+
+@media (max-width:768px){
+
+    .nav-menu{
+        display:flex !important;
+
+        align-items:center;
+        justify-content:center;
+
+        gap:10px;
+
+        white-space:nowrap;
+    }
+
+
+    .nav-menu a{
+        font-size:11px;
+
+        white-space:nowrap;
+    }
+
+
+    .mobile-menu{
+        display:none !important;
+    }
+
+}
+
+
+
+/* =====================================================
+   MOBILE
+   600PX AND BELOW
+   এখান থেকে NAV LINKS HIDE হবে
+   HAMBURGER DROPDOWN কাজ করবে
+===================================================== */
+
+@media (max-width:600px){
+
+    /* =====================================
+       DESKTOP NAVIGATION HIDE
+    ===================================== */
+
+    .nav-menu{
+        display:none !important;
+    }
+
+
+    /* =====================================
+       NAVBAR REFERENCE
+    ===================================== */
+
+    .navbar{
+        position:relative;
+    }
+
+
+    /* =====================================
+       MOBILE DROPDOWN
+       Default অবস্থায় hidden
+    ===================================== */
+
+    .mobile-menu{
+        display:none !important;
+
+        position:absolute;
+
+        top:70px;
+        right:15px;
+
+        width:190px;
+
+        padding:12px;
+
+        background:#052930;
+
+        border-radius:12px;
+
+        box-sizing:border-box;
+
+        z-index:9999;
+    }
+
+
+    /* =====================================
+       MENU BUTTON CLICK করার পর
+    ===================================== */
+
+    .mobile-menu.active{
+        display:flex !important;
+
+        flex-direction:column;
+
+        gap:4px;
+    }
+
+
+    /* =====================================
+       DROPDOWN LINKS
+    ===================================== */
+
+    .mobile-menu a{
+        display:block;
+
+        width:100%;
+
+        padding:12px 14px;
+
+        margin:0;
+
+        box-sizing:border-box;
+
+        font-family:"Archivo", sans-serif;
+
+        font-size:14px;
+        font-weight:400;
+
+        color:#ffffff;
+
+        text-decoration:none;
+
+        white-space:nowrap;
+
+        position:static;
+
+        transform:none;
+    }
+
+
+    /* =====================================
+       DROPDOWN LINK HOVER
+    ===================================== */
+
+    .mobile-menu a:hover{
+        background:#0F4551;
+
+        border-radius:7px;
+    }
+
+}
+
+
+
+/* =====================================================
+   SMALL MOBILE
+   480PX AND BELOW
+===================================================== */
+
+@media (max-width:480px){
+
+    .mobile-menu{
+        top:65px;
+        right:10px;
+
+        width:180px;
+
+        padding:10px;
+    }
+
+
+    .mobile-menu a{
+        padding:11px 12px;
+
+        font-size:13px;
+    }
+
+}
+
+
+
+/* =====================================================
+   EXTRA SMALL MOBILE
+   375PX AND BELOW
+===================================================== */
+
+@media (max-width:375px){
+
+    .mobile-menu{
+        right:8px;
+
+        width:170px;
+    }
+
+
+    .mobile-menu a{
+        padding:10px;
+
+        font-size:12px;
+    }
+
+}
+
+
+/* =====================================================
+   HERO RIGHT IMAGE - RESPONSIVE FIX
+===================================================== */
+
+@media (max-width:1200px){
+
+    .hero-right-panel{
+        background-image:url("../assets/header/solar.png");
+
+        background-size:cover;
+        background-repeat:no-repeat;
+        background-position:center bottom;
+    }
+
+}
+
+/* =====================================================
+   MOBILE HERO - FULL DARK PANEL
+===================================================== */
+
+@media (max-width:600px){
+
+    /* Right image panel remove */
+    .hero-right-panel{
+        display:none;
+    }
+
+
+    /* Hero full dark */
+    .hero{
+        background:#052930;
+    }
+
+
+    /* Large Rethvelle text */
+    .hero-large-text{
+        font-size:70px;
+
+        left:24px;
+        right:auto;
+
+        width:auto;
+
+        white-space:nowrap;
+    }
+
+
+    /* Hero title */
+    .hero-title{
+        font-size:75px;
+        line-height:24px;
+        letter-spacing: -3px;
+    }
+
+
+    /* Hero description */
+    .hero-description{
+        width:60%;
+
+        font-size:12px;
+        line-height:17px;
+        text-align: justify;
+    }
+
+}
+
+
+@media (max-width:600px){
+
+    /* =====================================
+       EFFICIENCY CARD
+    ===================================== */
+
+    .efficiency-card{
+        position:relative;
+
+        width:100%;
+        max-width:none;
+
+        min-height:280px;
+
+        margin:45px 0 0;
+
+        box-sizing:border-box;
+    }
+
+
+    /* =====================================
+       DOT CHART - CENTER + WIDER
+    ===================================== */
+
+    .efficiency-chart{
+        left:50%;
+        bottom:25px;
+
+        transform:translateX(-50%);
+
+        width:max-content;
+
+        gap:8px;
+    }
+
+
+    /* =====================================
+       VERTICAL DOT GAP
+    ===================================== */
+
+    .dot-column{
+        gap:7px;
+    }
+
+
+    /* =====================================
+       DOT SIZE
+    ===================================== */
+
+    .dot{
+        width:18px;
+        height:18px;
+    }
+
+
+    /* =====================================
+       LABEL SIZE
+    ===================================== */
+
+    .dot-label{
+        font-size:13px;
+    }
+
+}
+
+
+/* =========================================
+   FOOTER SOCIAL ICONS - MOBILE FIX
+========================================= */
+
+@media(max-width:768px){
+
+    .footer-social{
+        width:100%;
+        display:flex;
+        flex-direction:column;
+        align-items:flex-start;
+    }
+
+    .footer-social-title{
+        margin-top:40px;
+        margin-left:0;
+        margin-bottom:20px;
+    }
+
+    .social-icons{
+        margin-top:25px !important;
+        margin-left:0 !important;
+        margin-bottom:5px;
+
+        display:flex;
+        align-items:center;
+        gap:12px;
+    }
+
+    .social-icons img{
+        width:30px;
+        height:30px;
+    }
+
 }
