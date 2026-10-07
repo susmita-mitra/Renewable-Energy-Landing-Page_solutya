@@ -8292,3 +8292,41 @@ body {
     }
 
 }
+
+
+/* =========================================
+   MOBILE NAV ACTION BUTTONS
+========================================= */
+
+@media(max-width:600px){
+
+    .nav-actions{
+        display:flex;
+        align-items:center;
+        gap:6px;
+    }
+
+    .bell-btn,
+    .menu-btn{
+        width:36px;
+        height:36px;
+
+        padding:0;
+
+        display:flex;
+        align-items:center;
+        justify-content:center;
+
+        border:none;
+        border-radius:50%;
+    }
+
+    .bell-btn img,
+    .menu-btn img{
+        width:20px;
+        height:20px;
+
+        object-fit:contain;
+    }
+
+}
